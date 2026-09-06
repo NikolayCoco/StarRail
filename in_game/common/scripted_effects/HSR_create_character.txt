@@ -67,20 +67,3 @@ HSR_create_character = {
         target = scope:target_character
     }
 }
-
-# 测试角色（M1 闭环用）：三月七（march7）
-HSR_create_character_march7 = {
-	HSR_create_character = {
-		code = march7
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_march7
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = ice
-		belong = AstralExpress
-		female_bool = yes
-		ability_level = 95
-	}
-}

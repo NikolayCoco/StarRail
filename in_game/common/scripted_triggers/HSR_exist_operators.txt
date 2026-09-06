@@ -1,9 +1,58 @@
-# 存在尚未被招募的角色（M1 单测试角色；M2 生成全量）
+# 存在尚未被招募的角色
 HSR_exist_operator = {
     custom_tooltip = {
         text = HSR_exist_operator_tooltip
         OR = {
-            NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_archer_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_saber_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_wandi_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_preservation_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_hunt_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_busitu_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_tengchao_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_yinyue_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luanpo_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yunli_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_peila_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tingyun_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kelala_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_ren_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kelvdede_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jlahe_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_qianhong_ren_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kafuka_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luka_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiergameishi_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_dalihua_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_daheita_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jizi_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jizi_qixing_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_natasha_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hanya_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_buluoniya_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xier_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xiluwa_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_harmony_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_preservation_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_elation_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_destruction_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_remembrance_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yanqing_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_wangguiren_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tuopa_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xisheng_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xingqiri_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jingyuan_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiepaide_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_guinaifen_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sangbo_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiaoqiu_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_botiou_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_liuying_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_haixuyin_01_trait_leader } }
+			NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_huohua_01_trait_leader } }
+
         }
     }
 }

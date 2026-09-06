@@ -33,10 +33,4 @@
  HSR_character_events.1.desc_immortal: "$HSR_character_events.1.desc$\n\n#italic [target_character.GetName] has weathered long years and possesses a long life.#!"
  HSR_character_events.1.desc_child: "$HSR_character_events.1.desc$\n\n#italic [target_character.GetName] is still a child and will formally take part in affairs after age 16.#!"
  HSR_character_events.1.a: "Welcome aboard the Astral Express"
- # Test character
- nameF_march7: "March 7th"
  nameL_AstralExpress: "Astral Express"
- HSR_march7_01_trait: "March 7th"
- desc_HSR_march7_01_trait: "@ice!March 7th, one of the Astral Express's first departures, carrying a mysterious glass orb. Cheerful and vivacious, she always faces this vast world with boundless curiosity."
- HSR_march7_01_trait_leader: "March 7th"
- desc_HSR_march7_01_trait_leader: "@ice!March 7th may lead armies."

@@ -33,10 +33,4 @@
  HSR_character_events.1.desc_immortal: "$HSR_character_events.1.desc$\n\n#italic [target_character.GetName]经历漫长的岁月，拥有悠长的寿数。#!"
  HSR_character_events.1.desc_child: "$HSR_character_events.1.desc$\n\n#italic [target_character.GetName]还只是一个孩子，将会在16岁后正式参与事务。#!"
  HSR_character_events.1.a: "欢迎登上星穹列车"
- # 测试角色
- nameF_march7: "三月七"
  nameL_AstralExpress: "星穹列车"
- HSR_march7_01_trait: "三月七"
- desc_HSR_march7_01_trait: "@ice!三月七，星穹列车的启程者之一，随身携带着一只神秘的玻璃球。她率真活泼，总是兴致勃勃地面对这个广袤的世界。"
- HSR_march7_01_trait_leader: "三月七"
- desc_HSR_march7_01_trait_leader: "@ice!三月七可以统率军队。"

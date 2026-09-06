@@ -1,8 +1,344 @@
-# ======== 角色将领特质（category = general）——M1 单测试角色；M2 生成全量 ========
-HSR_march7_01_trait_leader = {
+# ======== 角色将领特质（category = general）——M2 生成 ========
+HSR_archer_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_saber_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_wandi_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_march7_preservation_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		global_defensive = 0.15
+	}
+}
+HSR_march7_hunt_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_busitu_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_danheng_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_danheng_tengchao_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		global_defensive = 0.15
+	}
+}
+HSR_danheng_yinyue_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_luanpo_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		research_speed_modifier = 0.05
+	}
+}
+HSR_yunli_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_peila_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_tingyun_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+	}
+}
+HSR_kelala_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_ren_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_kelvdede_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+	}
+}
+HSR_jlahe_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		regiment_reinforcement_speed = 0.15
+	}
+}
+HSR_qianhong_ren_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_kafuka_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_luka_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_jiergameishi_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_dalihua_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_daheita_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		research_speed_modifier = 0.05
+	}
+}
+HSR_jizi_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		research_speed_modifier = 0.05
+	}
+}
+HSR_jizi_qixing_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		research_speed_modifier = 0.05
+	}
+}
+HSR_natasha_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		regiment_reinforcement_speed = 0.15
+	}
+}
+HSR_hanya_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+	}
+}
+HSR_buluoniya_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+	}
+}
+HSR_xier_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_xiluwa_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		research_speed_modifier = 0.05
+	}
+}
+HSR_trailblazer_harmony_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+	}
+}
+HSR_trailblazer_preservation_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		global_defensive = 0.15
+	}
+}
+HSR_trailblazer_elation_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		siege_ability = 0.1
+	}
+}
+HSR_trailblazer_destruction_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_trailblazer_remembrance_01_trait_leader = {
 	category = general
 	allow = { always = yes }
 	modifier = {
 		army_movement_speed = 0.1
+	}
+}
+HSR_yanqing_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_wangguiren_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_tuopa_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_xisheng_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_movement_speed = 0.1
+	}
+}
+HSR_xingqiri_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+	}
+}
+HSR_jingyuan_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		research_speed_modifier = 0.05
+	}
+}
+HSR_jiepaide_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		global_defensive = 0.15
+	}
+}
+HSR_guinaifen_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_sangbo_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_jiaoqiu_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_botiou_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_artillery_power = 0.1
+	}
+}
+HSR_liuying_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_infantry_power = 0.1
+	}
+}
+HSR_haixuyin_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		land_morale_recovery = 0.05
+	}
+}
+HSR_huohua_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		siege_ability = 0.1
 	}
 }

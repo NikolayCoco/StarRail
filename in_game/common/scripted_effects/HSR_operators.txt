@@ -1,12 +1,941 @@
-# ================= 随机抽取（M1 单测试角色；M2 生成全量自机角色） =================
+HSR_create_character_archer = {
+	HSR_create_character = {
+		code = archer
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_archer
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = quantum
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_saber = {
+	HSR_create_character = {
+		code = saber
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_saber
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = wind
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_wandi = {
+	HSR_create_character = {
+		code = wandi
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_wandi
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_march7_preservation = {
+	HSR_create_character = {
+		code = march7_preservation
+		religion = Preservation_Worship
+		culture_key = astral_culture
+		nameF = nameF_march7_preservation
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_march7_hunt = {
+	HSR_create_character = {
+		code = march7_hunt
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_march7_hunt
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_busitu = {
+	HSR_create_character = {
+		code = busitu
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_busitu
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_danheng = {
+	HSR_create_character = {
+		code = danheng
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_danheng
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = wind
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_danheng_tengchao = {
+	HSR_create_character = {
+		code = danheng_tengchao
+		religion = Preservation_Worship
+		culture_key = astral_culture
+		nameF = nameF_danheng_tengchao
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_danheng_yinyue = {
+	HSR_create_character = {
+		code = danheng_yinyue
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_danheng_yinyue
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_luanpo = {
+	HSR_create_character = {
+		code = luanpo
+		religion = Erudition_Worship
+		culture_key = astral_culture
+		nameF = nameF_luanpo
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_yunli = {
+	HSR_create_character = {
+		code = yunli
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_yunli
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_peila = {
+	HSR_create_character = {
+		code = peila
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_peila
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_tingyun = {
+	HSR_create_character = {
+		code = tingyun
+		religion = Harmony_Worship
+		culture_key = astral_culture
+		nameF = nameF_tingyun
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_kelala = {
+	HSR_create_character = {
+		code = kelala
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_kelala
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_ren = {
+	HSR_create_character = {
+		code = ren
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_ren
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = wind
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_kelvdede = {
+	HSR_create_character = {
+		code = kelvdede
+		religion = Harmony_Worship
+		culture_key = astral_culture
+		nameF = nameF_kelvdede
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = wind
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jlahe = {
+	HSR_create_character = {
+		code = jlahe
+		religion = Abundance_Worship
+		culture_key = astral_culture
+		nameF = nameF_jlahe
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_qianhong_ren = {
+	HSR_create_character = {
+		code = qianhong_ren
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_qianhong_ren
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_kafuka = {
+	HSR_create_character = {
+		code = kafuka
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_kafuka
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_luka = {
+	HSR_create_character = {
+		code = luka
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_luka
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_jiergameishi = {
+	HSR_create_character = {
+		code = jiergameishi
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_jiergameishi
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_dalihua = {
+	HSR_create_character = {
+		code = dalihua
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_dalihua
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_daheita = {
+	HSR_create_character = {
+		code = daheita
+		religion = Erudition_Worship
+		culture_key = astral_culture
+		nameF = nameF_daheita
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jizi = {
+	HSR_create_character = {
+		code = jizi
+		religion = Erudition_Worship
+		culture_key = astral_culture
+		nameF = nameF_jizi
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jizi_qixing = {
+	HSR_create_character = {
+		code = jizi_qixing
+		religion = Erudition_Worship
+		culture_key = astral_culture
+		nameF = nameF_jizi_qixing
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_natasha = {
+	HSR_create_character = {
+		code = natasha
+		religion = Abundance_Worship
+		culture_key = astral_culture
+		nameF = nameF_natasha
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_hanya = {
+	HSR_create_character = {
+		code = hanya
+		religion = Harmony_Worship
+		culture_key = astral_culture
+		nameF = nameF_hanya
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_buluoniya = {
+	HSR_create_character = {
+		code = buluoniya
+		religion = Harmony_Worship
+		culture_key = astral_culture
+		nameF = nameF_buluoniya
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = wind
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_xier = {
+	HSR_create_character = {
+		code = xier
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_xier
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = quantum
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_xiluwa = {
+	HSR_create_character = {
+		code = xiluwa
+		religion = Erudition_Worship
+		culture_key = astral_culture
+		nameF = nameF_xiluwa
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_trailblazer_harmony = {
+	HSR_create_character = {
+		code = trailblazer_harmony
+		religion = Harmony_Worship
+		culture_key = astral_culture
+		nameF = nameF_trailblazer_harmony
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_trailblazer_preservation = {
+	HSR_create_character = {
+		code = trailblazer_preservation
+		religion = Preservation_Worship
+		culture_key = astral_culture
+		nameF = nameF_trailblazer_preservation
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_trailblazer_elation = {
+	HSR_create_character = {
+		code = trailblazer_elation
+		religion = Elation_Worship
+		culture_key = astral_culture
+		nameF = nameF_trailblazer_elation
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_trailblazer_destruction = {
+	HSR_create_character = {
+		code = trailblazer_destruction
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_trailblazer_destruction
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_trailblazer_remembrance = {
+	HSR_create_character = {
+		code = trailblazer_remembrance
+		religion = Remembrance_Worship
+		culture_key = astral_culture
+		nameF = nameF_trailblazer_remembrance
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_yanqing = {
+	HSR_create_character = {
+		code = yanqing
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_yanqing
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_wangguiren = {
+	HSR_create_character = {
+		code = wangguiren
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_wangguiren
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_tuopa = {
+	HSR_create_character = {
+		code = tuopa
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_tuopa
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_xisheng = {
+	HSR_create_character = {
+		code = xisheng
+		religion = Remembrance_Worship
+		culture_key = astral_culture
+		nameF = nameF_xisheng
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_xingqiri = {
+	HSR_create_character = {
+		code = xingqiri
+		religion = Harmony_Worship
+		culture_key = astral_culture
+		nameF = nameF_xingqiri
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jingyuan = {
+	HSR_create_character = {
+		code = jingyuan
+		religion = Erudition_Worship
+		culture_key = astral_culture
+		nameF = nameF_jingyuan
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = lightning
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jiepaide = {
+	HSR_create_character = {
+		code = jiepaide
+		religion = Preservation_Worship
+		culture_key = astral_culture
+		nameF = nameF_jiepaide
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_guinaifen = {
+	HSR_create_character = {
+		code = guinaifen
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_guinaifen
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_sangbo = {
+	HSR_create_character = {
+		code = sangbo
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_sangbo
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = wind
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_jiaoqiu = {
+	HSR_create_character = {
+		code = jiaoqiu
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_jiaoqiu
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_botiou = {
+	HSR_create_character = {
+		code = botiou
+		religion = Hunt_Worship
+		culture_key = astral_culture
+		nameF = nameF_botiou
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_liuying = {
+	HSR_create_character = {
+		code = liuying
+		religion = Destruction_Worship
+		culture_key = astral_culture
+		nameF = nameF_liuying
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_haixuyin = {
+	HSR_create_character = {
+		code = haixuyin
+		religion = Nihility_Worship
+		culture_key = astral_culture
+		nameF = nameF_haixuyin
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_huohua = {
+	HSR_create_character = {
+		code = huohua
+		religion = Elation_Worship
+		culture_key = astral_culture
+		nameF = nameF_huohua
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}
+
+# ================= 随机抽取（M2：50 名自机角色等权） =================
 HSR_create_character_random = {
     custom_tooltip = {
         text = HSR_create_character_random_tooltip
         random_list = {
-            1 = {
-                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_01_trait_leader } } }
-                HSR_create_character_march7 = yes
-            }
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_archer_01_trait_leader } } }
+				HSR_create_character_archer = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_saber_01_trait_leader } } }
+				HSR_create_character_saber = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_wandi_01_trait_leader } } }
+				HSR_create_character_wandi = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_preservation_01_trait_leader } } }
+				HSR_create_character_march7_preservation = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_hunt_01_trait_leader } } }
+				HSR_create_character_march7_hunt = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_busitu_01_trait_leader } } }
+				HSR_create_character_busitu = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_01_trait_leader } } }
+				HSR_create_character_danheng = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_tengchao_01_trait_leader } } }
+				HSR_create_character_danheng_tengchao = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_yinyue_01_trait_leader } } }
+				HSR_create_character_danheng_yinyue = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luanpo_01_trait_leader } } }
+				HSR_create_character_luanpo = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yunli_01_trait_leader } } }
+				HSR_create_character_yunli = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_peila_01_trait_leader } } }
+				HSR_create_character_peila = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tingyun_01_trait_leader } } }
+				HSR_create_character_tingyun = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kelala_01_trait_leader } } }
+				HSR_create_character_kelala = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_ren_01_trait_leader } } }
+				HSR_create_character_ren = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kelvdede_01_trait_leader } } }
+				HSR_create_character_kelvdede = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jlahe_01_trait_leader } } }
+				HSR_create_character_jlahe = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_qianhong_ren_01_trait_leader } } }
+				HSR_create_character_qianhong_ren = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kafuka_01_trait_leader } } }
+				HSR_create_character_kafuka = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luka_01_trait_leader } } }
+				HSR_create_character_luka = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiergameishi_01_trait_leader } } }
+				HSR_create_character_jiergameishi = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_dalihua_01_trait_leader } } }
+				HSR_create_character_dalihua = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_daheita_01_trait_leader } } }
+				HSR_create_character_daheita = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jizi_01_trait_leader } } }
+				HSR_create_character_jizi = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jizi_qixing_01_trait_leader } } }
+				HSR_create_character_jizi_qixing = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_natasha_01_trait_leader } } }
+				HSR_create_character_natasha = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hanya_01_trait_leader } } }
+				HSR_create_character_hanya = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_buluoniya_01_trait_leader } } }
+				HSR_create_character_buluoniya = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xier_01_trait_leader } } }
+				HSR_create_character_xier = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xiluwa_01_trait_leader } } }
+				HSR_create_character_xiluwa = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_harmony_01_trait_leader } } }
+				HSR_create_character_trailblazer_harmony = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_preservation_01_trait_leader } } }
+				HSR_create_character_trailblazer_preservation = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_elation_01_trait_leader } } }
+				HSR_create_character_trailblazer_elation = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_destruction_01_trait_leader } } }
+				HSR_create_character_trailblazer_destruction = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_trailblazer_remembrance_01_trait_leader } } }
+				HSR_create_character_trailblazer_remembrance = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yanqing_01_trait_leader } } }
+				HSR_create_character_yanqing = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_wangguiren_01_trait_leader } } }
+				HSR_create_character_wangguiren = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tuopa_01_trait_leader } } }
+				HSR_create_character_tuopa = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xisheng_01_trait_leader } } }
+				HSR_create_character_xisheng = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xingqiri_01_trait_leader } } }
+				HSR_create_character_xingqiri = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jingyuan_01_trait_leader } } }
+				HSR_create_character_jingyuan = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiepaide_01_trait_leader } } }
+				HSR_create_character_jiepaide = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_guinaifen_01_trait_leader } } }
+				HSR_create_character_guinaifen = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sangbo_01_trait_leader } } }
+				HSR_create_character_sangbo = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiaoqiu_01_trait_leader } } }
+				HSR_create_character_jiaoqiu = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_botiou_01_trait_leader } } }
+				HSR_create_character_botiou = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_liuying_01_trait_leader } } }
+				HSR_create_character_liuying = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_haixuyin_01_trait_leader } } }
+				HSR_create_character_haixuyin = yes
+			}
+			1 = {
+				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_huohua_01_trait_leader } } }
+				HSR_create_character_huohua = yes
+			}
+
         }
     }
 }
