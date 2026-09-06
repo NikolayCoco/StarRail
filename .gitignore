@@ -51,6 +51,7 @@ Thumbs.db
 # 采集中间产物（spills / 大体积 HTML 留档不入库；角色数据 json 留档进 git）
 临时文件/spills/
 临时文件/srs_pages/
+临时文件/srs_pages_en/
 临时文件/fetched_pages.json
 临时文件/*.bak
 临时文件/test_*
