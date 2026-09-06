@@ -9,6 +9,8 @@ const full = JSON.parse(fs.readFileSync(path.join(TMP, 'srs_full.json'), 'utf8')
 const enNames = JSON.parse(fs.readFileSync(path.join(TMP, 'srs_en_names.json'), 'utf8'));
 const voice = JSON.parse(fs.readFileSync(path.join(TMP, 'voice_lines.json'), 'utf8'));
 const talents = JSON.parse(fs.readFileSync(path.join(TMP, 'talent_names.json'), 'utf8'));
+const voiceEn = JSON.parse(fs.readFileSync(path.join(TMP, 'voice_lines_en.json'), 'utf8'));
+const talentsEn = JSON.parse(fs.readFileSync(path.join(TMP, 'talent_names_en.json'), 'utf8'));
 
 // 命途 -> 宗教 id
 const PATH_REL = {
@@ -91,9 +93,9 @@ for (const r of full) {
   locZh['desc_HSR_' + id + '_01_trait_leader'] = (voice[id] && voice[id].turn) ? voice[id].turn : `${name}可作为将领统率军队。`;
   locEn['nameF_' + id] = enName;
   locEn['HSR_' + id + '_01_trait'] = enName;
-  locEn['HSR_' + id + '_01_trait_leader'] = talents[id] || name;  // 天赋名(中文)
-  locEn['desc_HSR_' + id + '_01_trait'] = (voice[id] && voice[id].first) ? voice[id].first : `${enName}, a ${star}-star ${pathZh} character of ${CAMP_LOC[camp]?.[1] || camp}.`;
-  locEn['desc_HSR_' + id + '_01_trait_leader'] = (voice[id] && voice[id].turn) ? voice[id].turn : `${enName} may lead armies as a general.`;
+  locEn['HSR_' + id + '_01_trait_leader'] = talentsEn[id] || talents[id] || name;  // 天赋名(英文优先)
+  locEn['desc_HSR_' + id + '_01_trait'] = (voiceEn[id] && voiceEn[id].first) ? voiceEn[id].first : (voice[id] && voice[id].first) ? voice[id].first : `${enName}, a ${star}-star ${pathZh} character of ${CAMP_LOC[camp]?.[1] || camp}.`;
+  locEn['desc_HSR_' + id + '_01_trait_leader'] = (voiceEn[id] && voiceEn[id].turn) ? voiceEn[id].turn : (voice[id] && voice[id].turn) ? voice[id].turn : `${enName} may lead armies as a general.`;
   count++;
 }
 
