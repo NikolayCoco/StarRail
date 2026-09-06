@@ -48,10 +48,12 @@ Thumbs.db
 
 # ============ 星穹铁道 mod 专属忽略 ============
 
-# 采集中间产物（json / 待处理素材 / 半成品）
+# 采集中间产物（spills / 大体积 HTML 留档不入库；角色数据 json 留档进 git）
 临时文件/spills/
-临时文件/*.json
+临时文件/srs_pages/
 临时文件/fetched_pages.json
+临时文件/*.bak
+临时文件/test_*
 
 # 美术源素材（体量大，不入库，留待用户收集；清单见 输出物清单）
 /美术资源_立绘/
@@ -60,6 +62,9 @@ Thumbs.db
 
 # 二向箔立绘 dds（由 in_game/HSR_2DFoil.py 从 美术资源_立绘 生成，不提交）
 /in_game/gfx/models/props/HSR/*_diffuse.dds
+
+# 角色详情页批量留档（HTML，不入库）
+临时文件/srs_pages/
 
 # 其它临时脚本产物
 *.bak

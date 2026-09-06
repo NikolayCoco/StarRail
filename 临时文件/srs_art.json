@@ -1,0 +1,390 @@
+[
+  {
+    "id": "aventurinewaveflair",
+    "art": "https://cdn.starrailstation.com/assets/842c8a82f76e0895d212c99eebf90c599557635a186c23078b8c5f55aebccd5d.webp"
+  },
+  {
+    "id": "robinsummeretto",
+    "art": "https://cdn.starrailstation.com/assets/335b1925fc38cd514b654192bec73ab5ae801121375c53791135b13e4ff372f3.webp"
+  },
+  {
+    "id": "himekonova",
+    "art": "https://cdn.starrailstation.com/assets/5ff941361b9b4c6db4bd75e0e538fe335fc82b37e1ba15a96a76ba8e8b510791.webp"
+  },
+  {
+    "id": "gilgamesh",
+    "art": "https://cdn.starrailstation.com/assets/b7364b03a7c653f31ae36ecab5bf4b29ca13767037bfa2883af2e8a9c7d3137c.webp"
+  },
+  {
+    "id": "tohsakarin",
+    "art": "https://cdn.starrailstation.com/assets/91eb84519071eb2f2a6d15ed6c638713a89f18ce3ebdc835a92f33148bb38047.webp"
+  },
+  {
+    "id": "mortenaxblade",
+    "art": "https://cdn.starrailstation.com/assets/e9c48df4a82725db6359d1b6b4b97be59dd7baddc5891fce1e8f0e2fc770c76a.webp"
+  },
+  {
+    "id": "silverwolflv999",
+    "art": "https://cdn.starrailstation.com/assets/e4ba643cb10cd7b93275e11b0f0978d434a5d101408d0f2dffe144b115c040b3.webp"
+  },
+  {
+    "id": "evanescia",
+    "art": "https://cdn.starrailstation.com/assets/1b0d374e8de8bc69cfa6d607ec04c6eebf038d5b83c7bc815bee18d26dea470c.webp"
+  },
+  {
+    "id": "ashveil",
+    "art": "https://cdn.starrailstation.com/assets/c049280d01a0b28aae70510b737523fb99a2d62ee23b969f468fe23b0906450a.webp"
+  },
+  {
+    "id": "yaoguang",
+    "art": "https://cdn.starrailstation.com/assets/5afbef6687a3feb0368caeb95e412068abc307c8d01b1624b3f8ea05c579444b.webp"
+  },
+  {
+    "id": "sparxie",
+    "art": "https://cdn.starrailstation.com/assets/ebab8fd3fd3f23537ce25a5ab877c06d2e3e2a645797ab58576a68dfa527ef65.webp"
+  },
+  {
+    "id": "cyrene",
+    "art": "https://cdn.starrailstation.com/assets/59e17e74d42c945578f4e5732814799a60c5a3cab6b3c334cf780ed037f199a4.webp"
+  },
+  {
+    "id": "danhengpt",
+    "art": "https://cdn.starrailstation.com/assets/5bd3b9b17131487850ce20393d93634101111528ef02dc5e7e601459d6c2fc5e.webp"
+  },
+  {
+    "id": "evernight",
+    "art": "https://cdn.starrailstation.com/assets/f4f690026403305bc99a3dae3a36dad1cf9c993aea65dbfb5061975cfc09f18f.webp"
+  },
+  {
+    "id": "cerydra",
+    "art": "https://cdn.starrailstation.com/assets/7968101ab02655d237ebe92efb405152e8b19380769a5348467e6f7f445c7d9a.webp"
+  },
+  {
+    "id": "hysilens",
+    "art": "https://cdn.starrailstation.com/assets/f17b7d6cf08672cecc3dfcd2b7dc0ddc193aa2da5096fedd7576d0d68a4b33e8.webp"
+  },
+  {
+    "id": "hyacine",
+    "art": "https://cdn.starrailstation.com/assets/2ab9a8b3f5852430543824a81fe43023cdf6597ad5916d16816825952830dea2.webp"
+  },
+  {
+    "id": "phainon",
+    "art": "https://cdn.starrailstation.com/assets/c9ccc6595cf01622c07370fc650b4a0521bad518a56573e6f6586b4f8cac7358.webp"
+  },
+  {
+    "id": "castorice",
+    "art": "https://cdn.starrailstation.com/assets/5310780d610c5dfd43199c0d6a65c64d5a527fd6db0d932e3a61ff7e557b4003.webp"
+  },
+  {
+    "id": "cipher",
+    "art": "https://cdn.starrailstation.com/assets/eae11611ea28e9f4ad2eb1877f20d99bafd7502b2b942db1875526681d0f372d.webp"
+  },
+  {
+    "id": "anaxa",
+    "art": "https://cdn.starrailstation.com/assets/45e6ec7f1cff6e9f13280e8b0deb55e16f29b73d791b3d1f63373d6431cd289c.webp"
+  },
+  {
+    "id": "mydei",
+    "art": "https://cdn.starrailstation.com/assets/7bc51f226201ea39bb98cff5da99a57dfd10511c98b9e989cc645618589dc84b.webp"
+  },
+  {
+    "id": "tribbie",
+    "art": "https://cdn.starrailstation.com/assets/b3ea2c796ef47c2d944770414288e99920a87f30dab27b36f93b1d78a29f57ae.webp"
+  },
+  {
+    "id": "aglaea",
+    "art": "https://cdn.starrailstation.com/assets/b28af9fa44981cf9bce7ffb2b0ac99f130044f1ee4b40915240d26cfc9efe2cd.webp"
+  },
+  {
+    "id": "theherta",
+    "art": "https://cdn.starrailstation.com/assets/859fe292168dd53b848e67ab0b58d55682dec95638cc3f8f2d72a12cd63c217b.webp"
+  },
+  {
+    "id": "dahlia",
+    "art": "https://cdn.starrailstation.com/assets/0920c10f6427712025ae1ae3f770c6bb68a23d9b8e9a85ef85feb296f7d682d2.webp"
+  },
+  {
+    "id": "rappa",
+    "art": "https://cdn.starrailstation.com/assets/98ad62e0616601fe6675854746d9139d4d271c3a92edda4397db1ed1ab07ff1f.webp"
+  },
+  {
+    "id": "boothill",
+    "art": "https://cdn.starrailstation.com/assets/53f65abc98edef1b396477e086056a567531f371e0993819b2768bad5c9b6b0e.webp"
+  },
+  {
+    "id": "jade",
+    "art": "https://cdn.starrailstation.com/assets/12210349e3e5b1b21a5f5599639da120e1c44e8c247bb54680a5bfd2fdded337.webp"
+  },
+  {
+    "id": "sunday",
+    "art": "https://cdn.starrailstation.com/assets/a2dadccd07b1c5c39ce742e72b43bd37d010710cb5476d6e7c5b6a77a04ec7e7.webp"
+  },
+  {
+    "id": "sam",
+    "art": "https://cdn.starrailstation.com/assets/2985888f23c16aa6819243ad8cdb8531a861598c14f61e2172f6b88709ec3625.webp"
+  },
+  {
+    "id": "robin",
+    "art": "https://cdn.starrailstation.com/assets/217f3faeb7e9a2783a36025fa259a9551b96fd7aa200ffc433c6d0e49b09eb3b.webp"
+  },
+  {
+    "id": "acheron",
+    "art": "https://cdn.starrailstation.com/assets/f65016776af1d1dde801084539ac0b754b3b908422323a1842ac1b22cdcf800c.webp"
+  },
+  {
+    "id": "blackswan",
+    "art": "https://cdn.starrailstation.com/assets/2e10ebdf9e54920b76390a129a0d36164c3c6926665ee94698e51da967e0f1c1.webp"
+  },
+  {
+    "id": "sparkle",
+    "art": "https://cdn.starrailstation.com/assets/48f654b1beed69d71e46a8ab4d030a7220e68d15e2161d8fbb6e6a2bf3f65f3f.webp"
+  },
+  {
+    "id": "drratio",
+    "art": "https://cdn.starrailstation.com/assets/236dc1ce5fcfe0e1abc9bb233e30c1de88d0000bedb3112dccc76aa3c17296c4.webp"
+  },
+  {
+    "id": "aventurine",
+    "art": "https://cdn.starrailstation.com/assets/7333c76fb8ea077800b01074fbe04c7e3cb01394d4be5ae83975b2c148374be7.webp"
+  },
+  {
+    "id": "ruanmei",
+    "art": "https://cdn.starrailstation.com/assets/98920c8222adbf6c879aafef1142215dbafe669761f51a31c2429901b8522fa0.webp"
+  },
+  {
+    "id": "argenti",
+    "art": "https://cdn.starrailstation.com/assets/95939a2197dc9aa0fae55e827fe9fba575ac6691a0789461b8a810f66dba7732.webp"
+  },
+  {
+    "id": "fugue",
+    "art": "https://cdn.starrailstation.com/assets/33faffbaad360115b5d0a84ab417b92644cb9789e09238d0aa954263ebc4a8ce.webp"
+  },
+  {
+    "id": "lingsha",
+    "art": "https://cdn.starrailstation.com/assets/fa52cc2fbc3a982d72cf0e5f8562ac185efe17be3caf517592819982ce9fe4d4.webp"
+  },
+  {
+    "id": "yunli",
+    "art": "https://cdn.starrailstation.com/assets/82c8afdc192b07e60332a600e8224f1a21e8cbeb0a2b99b308785704629d263d.webp"
+  },
+  {
+    "id": "feixiao",
+    "art": "https://cdn.starrailstation.com/assets/c2b1ffc41b32a19c9801ff5f085fc9d8576c6afe57cbc3d8f177bb6ee33a72bd.webp"
+  },
+  {
+    "id": "jiaoqiu",
+    "art": "https://cdn.starrailstation.com/assets/743210aaf7e25a58efc9d81dbdc3441e74f89885ce3c0a60b46070e69fad5062.webp"
+  },
+  {
+    "id": "huohuo",
+    "art": "https://cdn.starrailstation.com/assets/0ff6508e52bf0b27c00f7fd9ba66045d2ada60cb218306060ec9afd6bcd4c490.webp"
+  },
+  {
+    "id": "danhengil",
+    "art": "https://cdn.starrailstation.com/assets/940c56031a6ed1eac0437cfdb957351483b7512979f95c94e391a2c0dc45fc45.webp"
+  },
+  {
+    "id": "jingliu",
+    "art": "https://cdn.starrailstation.com/assets/5e2791677e7c4e8abdcafa72fa8929ceb8b176239a56c39c995cdf80271ec882.webp"
+  },
+  {
+    "id": "bailu",
+    "art": "https://cdn.starrailstation.com/assets/3878d91194d6e7edc2777fd6da64b0e513138e760e67231dcc3ac27c3efe6666.webp"
+  },
+  {
+    "id": "yanqing",
+    "art": "https://cdn.starrailstation.com/assets/67ee9d8607d62abf17c5e6d01bcb7722365a51ec551815b382398ea50808e989.webp"
+  },
+  {
+    "id": "fuxuan",
+    "art": "https://cdn.starrailstation.com/assets/c4759789abc4598fce036071d94dfba6dc50fce4e40562687a360ae6c911e726.webp"
+  },
+  {
+    "id": "blade",
+    "art": "https://cdn.starrailstation.com/assets/f4123f37f56a1b516fd0dd56ded4df7fcd9e4e80ee39821fdac7eace71c6dd9a.webp"
+  },
+  {
+    "id": "jingyuan",
+    "art": "https://cdn.starrailstation.com/assets/95854fc4c8b0cd399c266dcc04ee53a7fbf63c7ff2400b0e165c352d85956955.webp"
+  },
+  {
+    "id": "luocha",
+    "art": "https://cdn.starrailstation.com/assets/26ee987e7b74572c82d6e965d37a2dd4beac6dbfd61282fb4df5e2a4dc19752d.webp"
+  },
+  {
+    "id": "topaz",
+    "art": "https://cdn.starrailstation.com/assets/04c0dacc0e3b3415c00e16d59639940f2bd70827edd9bcf1aa9e1bab8145d655.webp"
+  },
+  {
+    "id": "clara",
+    "art": "https://cdn.starrailstation.com/assets/842da1523d9f1ef52301fa1f2adc4e9fbfdd1a2114a935434cbdf4844bd47bf7.webp"
+  },
+  {
+    "id": "gepard",
+    "art": "https://cdn.starrailstation.com/assets/0c844ccdb925b0f4c597355c3ace69eb0f0ea69e7165370190f4cb85ec2b91cc.webp"
+  },
+  {
+    "id": "seele",
+    "art": "https://cdn.starrailstation.com/assets/93a4c04baada08f678274651021984938a9037bcf70956f42581b424cb8f236c.webp"
+  },
+  {
+    "id": "bronya",
+    "art": "https://cdn.starrailstation.com/assets/0c62a89ced1c4713409ed3d0b75bb96799f404e807a2fc14abe3187537f6d07f.webp"
+  },
+  {
+    "id": "archer",
+    "art": "https://cdn.starrailstation.com/assets/fb3536a0d566e393377b32476e9c6549cd16ad12ecbf6d10362e6d195859c173.webp"
+  },
+  {
+    "id": "saber",
+    "art": "https://cdn.starrailstation.com/assets/bcffc80044a0e54ff6dbaa70b6db50f7e6eb086295cd9147c1c0a55c2673ee96.webp"
+  },
+  {
+    "id": "silverwolf",
+    "art": "https://cdn.starrailstation.com/assets/ef767d48fc2daa322dd81762336dfdeda2123e4dfb62ffb3316cb76513618a86.webp"
+  },
+  {
+    "id": "kafka",
+    "art": "https://cdn.starrailstation.com/assets/880c4d667a3802e71df6e78d9cb227383627825c60ff860e27976608fa3706b7.webp"
+  },
+  {
+    "id": "welt",
+    "art": "https://cdn.starrailstation.com/assets/d5fe109347b01ae54f09c2b636c94c0ca2ccc08e8a62055dfba28162ec2fcff2.webp"
+  },
+  {
+    "id": "himeko",
+    "art": "https://cdn.starrailstation.com/assets/d4051ea4737e3c2d4c7c0e19b7dd92fe9c1b8af97fa30c6285e7e55df64facdd.webp"
+  },
+  {
+    "id": "playerboy",
+    "art": "https://cdn.starrailstation.com/assets/4cd968c5c19156153f90e86dc7914c1e56a0720772a9857eab5ced7f6341a458.webp"
+  },
+  {
+    "id": "playergirl",
+    "art": "https://cdn.starrailstation.com/assets/11b42038662880e9d7fb2a68117e203e94c1fbb0e6fb97f1294bc773cbfba16a.webp"
+  },
+  {
+    "id": "playerboy2",
+    "art": "https://cdn.starrailstation.com/assets/526d7397ab6f0d4ca31a77f6baaff512c8955d3aba4da21903dde348ec7200a6.webp"
+  },
+  {
+    "id": "playergirl2",
+    "art": "https://cdn.starrailstation.com/assets/3f740e5957bb19708d4f966c978b6e3bc441893c1d3710457082528e2d00d6d5.webp"
+  },
+  {
+    "id": "playerboy3",
+    "art": "https://cdn.starrailstation.com/assets/2dbb0fc0db7d001ab0778090e23b54c2930fee57a80d744ec0c6cf8bd5ecd098.webp"
+  },
+  {
+    "id": "playergirl3",
+    "art": "https://cdn.starrailstation.com/assets/f666868839f57bd201618c21057cd31f926bc2f2c32d1f8476ff5cf7fdfa15d0.webp"
+  },
+  {
+    "id": "playerboy4",
+    "art": "https://cdn.starrailstation.com/assets/36328a882e0f40ac05e1463860c895aabd96a606c4ea53cc8c8c96f70b40aed9.webp"
+  },
+  {
+    "id": "playergirl4",
+    "art": "https://cdn.starrailstation.com/assets/dc10f96614871d7cb09f35161c80ca96d9e56438ce4d8e4da75955190291abae.webp"
+  },
+  {
+    "id": "playerboy5",
+    "art": "https://cdn.starrailstation.com/assets/02a9ec78980aaa4121017b4c98d9eed11e09fdd4002507b257596f61089d89b6.webp"
+  },
+  {
+    "id": "playergirl5",
+    "art": "https://cdn.starrailstation.com/assets/2f2a7489294fa3c888c3f3699e6057c3a2a80a6aab6b746478a345258ab003df.webp"
+  },
+  {
+    "id": "misha",
+    "art": "https://cdn.starrailstation.com/assets/e41997f6f676ec18e6bd352ec665c0feb4ddc285f7dd70c906f510ddca75d41a.webp"
+  },
+  {
+    "id": "gallagher",
+    "art": "https://cdn.starrailstation.com/assets/f5bbae6c8f5b4ebaad784cbd49614018a304dfd17e68e7c51aba7ae939b04383.webp"
+  },
+  {
+    "id": "mar7th2",
+    "art": "https://cdn.starrailstation.com/assets/03be03e5c31b5c766c0170f767f1d3d7377474e925af91126ea8079afc6f4a7e.webp"
+  },
+  {
+    "id": "moze",
+    "art": "https://cdn.starrailstation.com/assets/ac466801e22b260d7906bc45292b91290cae948445ee4e11bd6a311af85397c3.webp"
+  },
+  {
+    "id": "hanya",
+    "art": "https://cdn.starrailstation.com/assets/a1b2922528da38199a9492a7edddcc7813ede269619836a449f8a5d698f0b215.webp"
+  },
+  {
+    "id": "xueyi",
+    "art": "https://cdn.starrailstation.com/assets/8e18631e053df1b3185a672b4097930dcfb616473480038e2e125a4f86ac3413.webp"
+  },
+  {
+    "id": "guinaifen",
+    "art": "https://cdn.starrailstation.com/assets/a7f215d7ea11ffe5efcc52215a358b7c998e8e2959f3081c3d999498ef7b084f.webp"
+  },
+  {
+    "id": "yukong",
+    "art": "https://cdn.starrailstation.com/assets/b1bd767861f8350fee721205b3c8ad5d591d65fe5833c206f2647fc6be0ad76e.webp"
+  },
+  {
+    "id": "sushang",
+    "art": "https://cdn.starrailstation.com/assets/6fe42c1cf4b50dbcdfc451917eeb29a982cba836303dbd26c5bd969e0e74ae03.webp"
+  },
+  {
+    "id": "tingyun",
+    "art": "https://cdn.starrailstation.com/assets/4c39bc179e850c1f159555925e7680aeabe51558dfa2c3a90d00fc4d64c06a87.webp"
+  },
+  {
+    "id": "qingque",
+    "art": "https://cdn.starrailstation.com/assets/cc0b719eaf6136753acd51dcfad8d09ef188cd813636a12693a2d59fb3662528.webp"
+  },
+  {
+    "id": "luka",
+    "art": "https://cdn.starrailstation.com/assets/1248a296dc9853f55c4c7346526be531b6701e6a96c4b6fd27650d88fc51204f.webp"
+  },
+  {
+    "id": "lynx",
+    "art": "https://cdn.starrailstation.com/assets/b9fbb09b9436866a5dca3ce23da62789aed3f273ca4e9e1fbad8be15a8a235d3.webp"
+  },
+  {
+    "id": "hook",
+    "art": "https://cdn.starrailstation.com/assets/c626c6956309a69a6ac1aae92e7fb14bca26e2ec7755e8fb8959ad8946327f57.webp"
+  },
+  {
+    "id": "sampo",
+    "art": "https://cdn.starrailstation.com/assets/d42bd65cfd984883daa3a19f14523598c3e802435824dfff64be98b3aaa2ca89.webp"
+  },
+  {
+    "id": "pela",
+    "art": "https://cdn.starrailstation.com/assets/96a57e47829fe1210e0b889a6d0dd58b11080b1f5bf39e18c33ae468993165b7.webp"
+  },
+  {
+    "id": "natasha",
+    "art": "https://cdn.starrailstation.com/assets/35e5fe87f3efb3dad2beefceae8d83165b264514c6426a70ef58db902654b32d.webp"
+  },
+  {
+    "id": "serval",
+    "art": "https://cdn.starrailstation.com/assets/6821db05fdf88856ac016ad681657631bec79522ee83dd4d17861d63b09f9d93.webp"
+  },
+  {
+    "id": "herta",
+    "art": "https://cdn.starrailstation.com/assets/9b64c5b02034a25171186c7bbda3e87601fd3c25f395deee0e1f75f973f337a0.webp"
+  },
+  {
+    "id": "asta",
+    "art": "https://cdn.starrailstation.com/assets/efa4dfa71bd80145373d9f478bcea06f1bf56ad5b74afbe0e6309883d1186f6d.webp"
+  },
+  {
+    "id": "arlan",
+    "art": "https://cdn.starrailstation.com/assets/4f4984502c589e359e6ad4f8baa21391694ca04e89a5b592337928973f1c07bf.webp"
+  },
+  {
+    "id": "danheng",
+    "art": "https://cdn.starrailstation.com/assets/74908b078d9878aaaa9860e973f0619def9adb030d862684b65ff31b962b4911.webp"
+  },
+  {
+    "id": "mar7th",
+    "art": "https://cdn.starrailstation.com/assets/ff6701870b72e850551b3d4aa6660e19911df0347013e8895ac92732cd29eb90.webp"
+  }
+]
