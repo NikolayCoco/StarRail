@@ -1,0 +1,17 @@
+colors = {
+    HSR_main_color = rgb { 243 216 158 }
+
+    # 星穹列车/开拓主题色（星琼金 / 琥珀）
+    HSR_black_color = rgb { 24 28 40 }
+    HSR_grey_color = rgb { 96 104 120 }
+    HSR_white_color = rgb { 224 230 240 }
+
+    # 七属性主题色
+    HSR_physical_color = rgb { 210 210 220 }
+    HSR_fire_color = rgb { 226 88 64 }
+    HSR_ice_color = rgb { 96 176 230 }
+    HSR_lightning_color = rgb { 168 120 240 }
+    HSR_wind_color = rgb { 96 200 140 }
+    HSR_quantum_color = rgb { 90 120 230 }
+    HSR_imaginary_color = rgb { 232 200 90 }
+}

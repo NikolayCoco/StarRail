@@ -1,0 +1,7 @@
+HSR_start = {
+    game_data = {
+	    category = country
+    }
+
+    monthly_gold_income = 12
+}

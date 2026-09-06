@@ -1,0 +1,64 @@
+on_game_start = {
+	on_actions = {
+		on_HSR_start
+	}
+}
+on_HSR_start = {
+    effect = {
+        if = {
+            limit = { NOT = { has_global_variable = HSR_2D_portrait_enabled } }
+            set_global_variable = HSR_2D_portrait_enabled
+        }
+        if = {
+            limit = { NOT = { has_global_variable = HSR_start_end } }
+            set_global_variable = HSR_start_end
+            every_country = { trigger_event_non_silently = { id = HSR_events.1 } }
+        }
+    }
+}
+on_character_death = {
+    on_actions = {
+		on_HSR_character_death
+	}
+}
+on_HSR_character_death = {
+    trigger = {
+        is_target_in_global_variable_list = {
+            name = HSR_characters_created_list
+            target = scope:target
+        }
+	}
+    effect = {
+        remove_list_global_variable = {
+            name = HSR_characters_created_list
+            target = scope:target
+        }
+    }
+}
+on_annex = {
+    on_actions = {
+		on_HSR_annex
+	}
+}
+on_HSR_annex = {
+	effect = {
+		if = {
+			limit = {
+				root = {
+					is_member_of_international_organization = international_organization:HSR_express_IO
+				}
+				scope:target = {
+                    any_character = { HSR_trailblazer_trigger = yes }
+				}
+			}
+			scope:target = {
+                every_character = {
+                    limit = {
+                        HSR_trailblazer_trigger = yes
+                    }
+                    move_country = root
+                }
+       		}			
+		}
+    }
+}

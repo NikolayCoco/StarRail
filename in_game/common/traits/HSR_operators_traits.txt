@@ -1,0 +1,8 @@
+# ======== 角色身份特质（category = cabinet）——M1 单测试角色；M2 生成全量 ========
+HSR_march7_01_trait = {
+	category = cabinet
+	allow = { always = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.05
+	}
+}

@@ -1,0 +1,12 @@
+# ================= 随机抽取（M1 单测试角色；M2 生成全量自机角色） =================
+HSR_create_character_random = {
+    custom_tooltip = {
+        text = HSR_create_character_random_tooltip
+        random_list = {
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_01_trait_leader } } }
+                HSR_create_character_march7 = yes
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+HSR_portrait = {
+	usage = game
+	priority = 100
+}

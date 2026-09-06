@@ -1,0 +1,54 @@
+namespace = HSR_character_events
+
+HSR_character_events.1 = {
+	type = country_event
+
+	title = HSR_character_events.1.title
+
+	desc = {
+		first_valid = {					# Will select the first triggered_desc that
+ 								# fulfills the trigger
+ 			triggered_desc = {
+ 				desc = 	HSR_character_events.1.desc	# Localisation key for this triggered_desc
+ 				trigger = {			# Requirements for this triggered_desc
+ 								# to be evaluated
+ 					scope:target_character = {
+ 						age_in_years >= 16
+ 						has_character_modifier = HSR_character_base_modifier
+ 					}
+ 				}	
+ 			}
+ 			triggered_desc = {
+ 				desc = 	HSR_character_events.1.desc_immortal
+ 				trigger = {
+ 					scope:target_character = {
+ 						age_in_years >= 16
+ 						has_character_modifier = HSR_character_base_modifier_immortal
+ 					}
+ 				}	
+ 			}
+ 			triggered_desc = {
+ 				desc = 	HSR_character_events.1.desc_child
+ 				trigger = {
+ 					scope:target_character = { age_in_years < 16 }
+ 				}	
+ 			}
+ 		}
+	}
+	
+	trigger = {  }
+
+	immediate = {
+		event_illustration_poptype_effect = { foreground = pop_type:hsr_pop background = pop_type:hsr_pop }
+	}
+
+	illustration_tags = {
+		10 = HSR_recruit_event
+	}
+
+	option = {
+		name = HSR_character_events.1.a
+
+		
+	}
+}

@@ -1,0 +1,8 @@
+# ======== 出身阵营标签特质（category = ruler）——M1 单测试；M2 生成全量 ========
+HSR_belong_AstralExpress_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}

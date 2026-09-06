@@ -1,0 +1,4 @@
+Aeons = {
+	color = HSR_main_color
+	convert_slaves_at_start = no
+}

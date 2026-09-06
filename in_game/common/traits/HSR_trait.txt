@@ -1,0 +1,52 @@
+# ======== 七属性标签特质（category = ruler，纯标签 + 小占位修正） ========
+HSR_physical_trait = { # 物理
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+HSR_fire_trait = { # 火
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+HSR_ice_trait = { # 冰
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+HSR_lightning_trait = { # 雷
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+HSR_wind_trait = { # 风
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+HSR_quantum_trait = { # 量子
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+HSR_imaginary_trait = { # 虚数
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_cabinet_efficiency = 0.01
+	}
+}
+
+# 每名实装角色的身份特质（HSR_<code>_01_trait）见 HSR_operators_traits.txt（M2 生成）

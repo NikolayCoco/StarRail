@@ -1,0 +1,204 @@
+# 空月祝福（对应原神 Welkin / DvT AG_Pay_30）：立即 300 星琼，此后 30 个月每月 +90
+HSR_Pay_30 = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = {
+			NOT = { has_variable = HSR_Welkin_months }
+			custom_tooltip = {
+				NOT = { has_variable = HSR_Welkin_months }
+				text = HSR_has_Welkin_text
+			}
+			gold >=300
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			add_gold = -300
+			custom_tooltip = {
+				text = HSR_Pay_30_tooltip_1
+				change_variable = {
+					name = HSR_StellarJade
+					add = 300
+				}
+			}
+			custom_tooltip = {
+				text = HSR_Pay_30_tooltip_2
+				set_variable = {
+					name = HSR_Welkin_months
+					value = 0
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+	}
+}
+
+# 星琼组合包 ￥648（恒按首充双倍）：6480 金 → 12960 星琼（对应原神 AG_Pay_648）
+HSR_Pay_648 = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = { gold >=6480 }
+	}
+
+	effect = {
+		scope:actor = {
+			add_gold = -6480
+			custom_tooltip = {
+				text = HSR_Pay_648_tooltip
+				change_variable = {
+					name = HSR_StellarJade
+					add = 12960
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+	}
+}
+
+# 跃迁：1600 星琼随机获得一名角色（对应原神 AG_create_character）
+HSR_create_character = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = {
+			has_variable = HSR_StellarJade
+			var:HSR_StellarJade >= 1600
+		}
+		HSR_exist_operator = yes
+	}
+
+	effect = {
+		scope:actor = {
+			HSR_Pay_1600 = yes
+			HSR_create_character_random = yes
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		
+	}
+}
+
+# 开拓者登记：1600 星琼向星穹列车补充 1 名开拓者 pop（0.01）（对应原神 AG_create_pop）
+HSR_create_pop = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+		
+	}
+
+	allow = {
+		scope:actor = {
+			has_variable = HSR_StellarJade
+			var:HSR_StellarJade >= 1600
+			any_owned_location = {
+				has_building =  building_type:HSR_express_building
+				population_with_traits = {
+					limit = {
+						pop_type = pop_type:hsr_pop
+					}
+					value < HSR_express_employment
+				}
+			}
+		}
+
+	}
+
+	effect = {
+		scope:actor = {
+			HSR_Pay_1600 = yes
+			random_owned_location = {
+				limit = {
+					has_building =  building_type:HSR_express_building
+					population_with_traits = {
+						limit = {
+							pop_type = pop_type:hsr_pop
+						}
+						value < HSR_express_employment
+					}
+				}
+				add_pop = {
+					type = pop_type:hsr_pop
+					size = 0.01
+					culture = scope:actor.culture
+					religion = scope:actor.religion
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		
+	}
+}
+
+# 星琼回兑金币（对应原神 AG_Primogem_for_golden）：1600 星琼 → 160 金
+HSR_StellarJade_for_golden = {
+	type = internationalorganization
+	show_in_gui_list = no
+
+	automation_tick = never
+	automation_tick_frequency = 12
+	
+	potential = {
+
+	}
+
+	allow = {
+		scope:actor = {
+			has_variable = HSR_StellarJade
+			var:HSR_StellarJade >= 1600
+		}
+	}
+
+	effect = {
+		scope:actor = {
+			HSR_Pay_1600 = yes
+			add_gold = 160
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		
+	}
+}

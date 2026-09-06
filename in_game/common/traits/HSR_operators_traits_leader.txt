@@ -1,0 +1,8 @@
+# ======== 角色将领特质（category = general）——M1 单测试角色；M2 生成全量 ========
+HSR_march7_01_trait_leader = {
+	category = general
+	allow = { always = yes }
+	modifier = {
+		army_movement_speed = 0.1
+	}
+}

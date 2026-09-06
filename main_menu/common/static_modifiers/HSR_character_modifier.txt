@@ -1,0 +1,42 @@
+hsr_trailblazer_tax_impact = {
+    game_data = {
+	    category = country
+    }
+	hsr_trailblazer_target_satisfaction = -1
+}
+HSR_character_base_modifier = {
+    game_data = {
+		category = character
+	}
+    ignore_gender_block_cabinet = yes
+    ignore_gender_block_leader = yes
+    blocked_from_marriage = yes
+    character_cabinet_efficiency = 0.2
+}
+HSR_character_base_modifier_immortal = {
+    game_data = {
+		category = character
+	}
+    ignore_gender_block_cabinet = yes
+    ignore_gender_block_leader = yes
+    blocked_from_marriage = yes
+    is_immortal = yes
+    character_cabinet_efficiency = 0.2
+}
+HSR_character_base_modifier_marriage = {
+    game_data = {
+		category = character
+	}
+    ignore_gender_block_cabinet = yes
+    ignore_gender_block_leader = yes
+    character_cabinet_efficiency = 0.2
+}
+HSR_character_base_modifier_marriage_immortal = {
+    game_data = {
+		category = character
+	}
+    ignore_gender_block_cabinet = yes
+    ignore_gender_block_leader = yes
+    is_immortal = yes
+    character_cabinet_efficiency = 0.2
+}

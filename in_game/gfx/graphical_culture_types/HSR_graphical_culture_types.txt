@@ -1,0 +1,1 @@
+astral_gfx = { priority = 1000 culture_tag = astral_gfx }

@@ -1,0 +1,45 @@
+hsr_trailblazer = {
+    color = HSR_main_color
+
+    power_per_pop = 68                      # Power gained per pop
+    tax_per_pop = 648                       # Tax income per pop
+
+    rival = 0                           # Rivalry factor with other estates
+    alliance = 0                         # Alliance factor with other estates
+
+    revolt_court_language = common_language  # Language used in revolts
+
+    # Character spawning rules
+    characters_have_dynasty = never        # always, sometimes, never
+    # can_spawn_random_characters = no
+    # can_generate_mercenary_leaders = yes
+    # use_diminutive = no
+
+    bank = yes                              # Can loan money
+
+    # Ruler estate specific
+    # ruler = yes
+    # priority_for_dynasty_head = yes
+
+    # Satisfaction modifiers (multiplied by satisfaction - threshold)
+    satisfaction = {
+    	# 满意的开拓者协助管理：降低叛乱增长
+    	monthly_rebel_growth = -0.1
+    }
+
+    # High power modifiers (when power > threshold)
+    high_power = {
+        
+    }
+
+    # Low power modifiers (when power < threshold)
+    low_power = {
+        
+    }
+
+    # Power-based modifiers (scaled by power)
+    power = {
+    	# 开拓者能更高效地经营
+    	global_monthly_control = 0.001
+    }
+}

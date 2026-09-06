@@ -1,0 +1,220 @@
+HSR_CI_can_marry = {
+    message = no                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            OR = {
+                has_character_modifier = HSR_character_base_modifier
+                has_character_modifier = HSR_character_base_modifier_immortal
+            }
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:recipient = {
+            if = {
+                limit = { has_character_modifier = HSR_character_base_modifier }
+                remove_character_modifier = HSR_character_base_modifier
+                add_character_modifier = {
+                    modifier = HSR_character_base_modifier_marriage
+                    years = -1
+                    mode = replace
+                }
+            }
+            if = {
+                limit = { has_character_modifier = HSR_character_base_modifier_immortal }
+                remove_character_modifier = HSR_character_base_modifier_immortal
+                add_character_modifier = {
+                    modifier = HSR_character_base_modifier_marriage_immortal
+                    years = -1
+                    mode = replace
+                }
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}
+HSR_CI_cannot_marry = {
+    message = no                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            OR = {
+                has_character_modifier = HSR_character_base_modifier_marriage
+                has_character_modifier = HSR_character_base_modifier_marriage_immortal
+            }
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:recipient = {
+            if = {
+                limit = { has_character_modifier = HSR_character_base_modifier_marriage }
+                remove_character_modifier = HSR_character_base_modifier_marriage
+                add_character_modifier = {
+                    modifier = HSR_character_base_modifier
+                    years = -1
+                    mode = replace
+                }
+            }
+            if = {
+                limit = { has_character_modifier = HSR_character_base_modifier_marriage_immortal }
+                remove_character_modifier = HSR_character_base_modifier_marriage_immortal
+                add_character_modifier = {
+                    modifier = HSR_character_base_modifier_immortal
+                    years = -1
+                    mode = replace
+                }
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}
+
+HSR_CI_Ruler = {
+    message = yes                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+	}
+
+    potential = {
+        # Conditions for interaction to appear
+        scope:recipient = {
+            HSR_trailblazer_trigger = yes
+        }
+    }
+
+    allow = {
+        # Conditions to enable interaction
+        scope:actor = {
+            has_estate_privilege = estate_privilege:hsr_trailblazer_rule
+            var:HSR_StellarJade >=1600
+        }
+    }
+
+    effect = {
+        # What happens when interaction is used
+        scope:actor = {
+            HSR_Pay_1600 = yes
+            set_new_ruler = scope:recipient
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+		value = 0
+		
+	}
+}
+HSR_CI_Subject_Ruler = {
+    message = yes                   # Show notification
+    on_own_nation = yes             # Can be used within own nation
+
+    # 第一步：选择要派遣的角色
+    select_trigger = {
+        looking_for_a = character
+        source = actor
+        target_flag = recipient
+    }
+
+    potential = {
+        scope:recipient = {
+            HSR_trailblazer_trigger = yes
+        }
+    }
+
+    allow = {
+        scope:actor = {
+            has_estate_privilege = estate_privilege:hsr_trailblazer_rule
+            var:HSR_StellarJade >=1600
+        }
+    }
+
+    # 第二步：选择要派遣到的属国（任意类型）
+    select_trigger = {
+        looking_for_a = country
+        interaction_source_list = {
+            scope:actor = {
+                every_subject = {
+                    add_to_list = source
+                }
+            }
+        }
+        target_flag = target
+        name = "choose_country"
+        column = {
+            data = name
+        }
+        visible = {
+            is_subject_of = scope:actor
+        }
+        enabled = {
+            scope:actor = {
+                var:HSR_StellarJade >= 1600
+            }
+        }
+    }
+
+    effect = {
+        scope:actor = {
+            HSR_Pay_1600 = yes
+        }
+        if = {
+            limit = {
+                exists = scope:recipient
+                exists = scope:target
+            }
+            scope:recipient = {
+                move_country = scope:target
+            }
+            scope:target = {
+                set_new_ruler = scope:recipient
+            }
+        }
+    }
+
+    ai_tick = never
+    ai_will_do = {
+        value = 0
+    }
+}

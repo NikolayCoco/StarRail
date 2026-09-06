@@ -1,0 +1,13 @@
+astral_culture = { # 星穹
+	language = common_language
+	
+	color = HSR_main_color
+	
+	tags = { astral_gfx european_gfx }
+	
+	opinions = {
+	}
+	culture_groups = {
+        astral_group
+	}
+}

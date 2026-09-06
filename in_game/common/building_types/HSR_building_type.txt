@@ -1,0 +1,83 @@
+HSR_express_building = { # Building Types
+	pop_type = hsr_pop # <pop type> the pop type employed in this building
+
+    category = government_category # <building category> building category tag
+
+    max_levels = 1 # <scripted integer> maximum levels the building can be upgraded to
+	employment_size = HSR_express_employment # <float> how many people can be employed there. 1 = 1000 people
+
+    rural_settlement = yes
+	town = yes
+	city = yes
+    megalopolis = yes
+	st_meg = yes
+	st_met = yes
+
+    location_potential = {  } # <trigger> can the building be built in the location (root = location)
+
+    country_potential = { is_ai = no } # <trigger> can the building be built by the country (root = country)
+
+    expensive = yes
+    build_time = 30 # <integer> building time in days
+
+	allow = {
+        OR = {
+            is_capital = yes
+            owner = {
+                any_owned_location = {
+                    is_capital = yes
+                    has_building = building_type:HSR_express_building
+                }
+            }
+        }
+    } # <trigger> can the building be built in the location (root = location)
+
+	# 星穹列车停靠站：开拓者带来探索与殖民能力
+	modifier = {
+        can_colonize = yes
+        colonial_range_modifier = 0.15
+        colonial_migration_size_modifier = 0.1
+        local_monthly_prosperity = 0.001
+        local_hsr_trailblazer_power = 0.5
+    } # <modifier> modifier applied to the location
+    
+    # 首都总部：星穹列车大本营，全国受益
+    capital_country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.5
+        can_colonize = yes
+        colonial_range_modifier = 0.1
+        colonial_migration_size_modifier = 0.1
+        colonial_maintenance_efficiency = 0.1
+	} # <modifier> modifier applied to the country if built in the capital
+
+	unique_production_methods = {
+		HSR_express_maintenance = {
+			tools = 0.01
+			category = building_maintenance
+		}
+	}
+
+    on_built = {
+        
+    } # = { <effects> } (root = building)
+
+    remove_if = { # <trigger> will the building be auto-destroyed in the location (root = building)
+        owner = { 
+            OR = {
+                NOT = {
+                    is_ai = no
+                    any_overlord_or_above = {
+                        is_ai = no
+                    }
+                }
+                NOT = {
+                    any_owned_location = {
+                        is_capital = yes
+                        has_building = building_type:HSR_express_building
+                    }
+                }
+            }
+        }
+    }
+}

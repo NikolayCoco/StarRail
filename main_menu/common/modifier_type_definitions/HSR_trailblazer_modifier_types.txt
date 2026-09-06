@@ -1,0 +1,37 @@
+hsr_trailblazer_target_satisfaction = {
+    game_data = {
+        category = country
+    }
+    color = neutral
+    percent = yes
+}
+
+global_hsr_trailblazer_power = {
+    game_data = {
+        category = country
+    }
+    color = neutral
+    percent = yes
+}
+
+local_hsr_trailblazer_power = {
+    game_data = {
+        category = country
+    }
+    color = neutral
+    percent = yes
+}
+
+hsr_trailblazer_allowed_in_cabinet = {
+    game_data = {
+        category = country
+    }
+    boolean = yes
+}
+
+hsr_trailblazer_allowed_leading_military = {
+    game_data = {
+        category = country
+    }
+    boolean = yes
+}

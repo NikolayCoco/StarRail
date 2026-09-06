@@ -1,0 +1,119 @@
+HSR_express_IO = {
+    has_target = no
+    unique = yes
+    has_leader_country = no
+
+	create_visible_trigger = { always = no }
+	invite_visible_trigger = { always = no }
+    auto_disband_trigger = { always = no }
+
+    join_defensive_wars_always = { always = no }
+    join_offensive_wars_always = { always = no }
+
+    can_join_trigger = { always = no }
+
+    modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.5
+        can_colonize = yes
+        colonial_range_modifier = 0.15
+        colonial_migration_size_modifier = 0.1
+        colonial_maintenance_efficiency = 0.1
+        gender_equality = yes
+    }
+
+    monthly_effect = {
+        every_country = {
+            limit = {
+                any_owned_location = {
+                    is_capital = yes
+                    has_building = building_type:HSR_express_building
+                }
+                NOT = { is_member_of_international_organization = root }
+            }
+            root = {
+				add_country_to_international_organization = prev
+			}
+        }
+        every_international_organization_member = {
+            if = {
+                limit = {
+                    NOT = {
+                        any_owned_location = {
+                            is_capital = yes
+                            has_building = building_type:HSR_express_building
+                        }
+                    }
+                }
+                root = {
+                    remove_country_from_international_organization = prev
+                }
+            }
+            if = {
+                limit = {
+                    NOT = { has_variable = HSR_StellarJade }
+                }
+                set_variable = {
+                    name = HSR_StellarJade
+                    value = 0
+                }
+            }
+            else = {
+                change_variable = {
+                    name = HSR_StellarJade
+                    add = 60
+                }
+                if = {
+                    limit = {
+                        has_variable = HSR_Welkin_months
+                        var:HSR_Welkin_months < 30
+                    }
+                    change_variable = {
+                        name = HSR_Welkin_months
+                        add = 1
+                    }
+                    change_variable = {
+                        name = HSR_StellarJade
+                        add = 90
+                    }
+                    if = {
+                        limit = {
+                            var:HSR_Welkin_months >= 30
+                        }
+                        remove_variable = HSR_Welkin_months
+                    }
+                }
+            }
+        }
+    }
+
+    on_joined = {# effect when a country has joined (root = country, scope:recipient = existing organization, scope:target contains target if allowed)
+        if = {
+            limit = {
+                is_ai = no
+                NOT = { has_country_modifier = HSR_start }
+            }
+            trigger_event_non_silently = { id = HSR_events.1 }
+        }
+        if = {
+            limit = {
+                NOT = { has_variable = HSR_StellarJade }
+            }
+            set_variable = {
+                name = HSR_StellarJade
+                value = 0
+            }
+            random_owned_location = {
+				limit = {
+					is_capital = yes
+				}
+				add_pop = {
+					type = pop_type:hsr_pop
+					size = 0.01
+					culture = root.culture
+					religion = root.religion
+				}
+			}
+        }
+    } 
+}

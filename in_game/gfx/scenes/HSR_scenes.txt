@@ -1,0 +1,15 @@
+# 星穹列车招募事件插图场景（仿 DvT_create_event）
+HSR_recruit_event = {
+    ecs_illustration_image = {
+		name = "illustration_override"
+		pdxmesh = "background2_mesh"
+	    list = "HSR_recruit_backgrounds"
+	}
+	gfx_environment_file = "gfx/illustrations/environment2.txt"
+	camera = {
+		camera_near_far = {0.14 100000} #xyz
+		camera_position = {12 -10 0}
+		camera_look_at = {0 -10 0}
+		camera_fov_y_degrees = 79
+	}
+}

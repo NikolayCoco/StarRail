@@ -1,0 +1,100 @@
+texticon = {
+	icon = StellarJade
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_StellarJade.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Welkin
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Welkin.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Warp
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Warp.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+# 七属性
+texticon = {
+	icon = physical
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_physical.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = fire
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_fire.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = ice
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_ice.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = lightning
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_lightning.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = wind
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_wind.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = quantum
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_quantum.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = imaginary
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_imaginary.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = AstralExpress
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_AstralExpress.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}

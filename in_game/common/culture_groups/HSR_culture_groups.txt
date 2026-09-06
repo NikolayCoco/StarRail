@@ -1,0 +1,2 @@
+# 星穹（Astral）
+astral_group = { }

@@ -1,0 +1,86 @@
+# 通用开拓者构建器：建号 -> 特质 -> 基底修正 -> 王朝 -> 首都附送 1 开拓者 pop -> 演出事件 -> 登记全局列表
+# （结构对齐 RI_create_operator / DvT_create_character：特质/if/王朝 等都写在 create_character 块内，save_scope_as 之后仅用于登记全局列表）
+HSR_create_character = {
+	create_character = {
+        first_name = $nameF$
+        last_name = $nameL$
+        religion = religion:$religion$
+        culture = culture:$culture_key$
+        age = $age$
+        estate = estate_type:hsr_trailblazer
+        adm = { value = { 0 5 } add = $ability_level$ }
+        dip = { value = { 0 5 } add = $ability_level$ }
+        mil = { value = { 0 5 } add = $ability_level$ }
+        female = $female_bool$
+        if = {
+            limit = { $immortal$ = yes }
+            add_character_modifier = {
+                modifier = HSR_character_base_modifier_immortal
+                years = -1
+                mode = add_and_extend
+            }
+        }
+        else = {
+            add_character_modifier = {
+                modifier = HSR_character_base_modifier
+                years = -1
+                mode = add_and_extend
+            }
+        }
+        remove_traits_of_category = ruler
+        add_trait = trait:HSR_$code$_01_trait
+        add_trait = trait:HSR_$code$_01_trait_leader
+        add_trait = trait:HSR_$element$_trait
+        if = {
+            limit = { NOT = { $belong$ = none } }
+            add_trait = trait:HSR_belong_$belong$_trait
+        }
+        if = {
+            limit = { has_dynasty = no }
+            if = {
+                limit = { exists = dynasty:$nameL$ }
+                change_dynasty = dynasty:$nameL$
+            }
+            else = {
+                found_dynasty = $nameL$
+            }
+        }
+        save_scope_as = target_character
+    }
+    random_owned_location = {
+        limit = {
+            is_capital = yes
+        }
+        add_pop = {
+            type = pop_type:hsr_pop
+            size = 0.001
+            religion = scope:actor.religion
+            culture = culture:$culture_key$
+        }
+    }
+    scope:actor.ruler = {
+        save_scope_as = target_second_character
+    }
+    trigger_event_non_silently = { id = HSR_character_events.1 }
+    add_to_global_variable_list = {
+        name = HSR_characters_created_list
+        target = scope:target_character
+    }
+}
+
+# 测试角色（M1 闭环用）：三月七（march7）
+HSR_create_character_march7 = {
+	HSR_create_character = {
+		code = march7
+		religion = Preservation_Worship
+		culture_key = astral_culture
+		nameF = nameF_march7
+		nameL = nameL_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		belong = AstralExpress
+		female_bool = yes
+		ability_level = 95
+	}
+}

@@ -1,0 +1,7 @@
+# 星穹列车招募事件插图绑定（loading_screen 场景库）
+illustration_HSR_recruit_event = {
+    scene = "HSR_recruit_event"
+	tags = {
+		10 = HSR_recruit_event
+	}
+}

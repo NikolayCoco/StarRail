@@ -1,0 +1,9 @@
+HSR_Pay_1600 = {
+    custom_tooltip = {
+        text = HSR_Pay_1600_tooltip
+        change_variable = {
+            name = HSR_StellarJade
+            subtract = 1600
+        }
+    }
+}

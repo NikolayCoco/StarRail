@@ -1,0 +1,248 @@
+hsr_trailblazer_base = {
+    estate = hsr_trailblazer
+
+    potential = {
+		
+	}
+	allow = {
+		
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.2
+        global_hsr_trailblazer_power = 1.0
+
+		global_distance_from_capital_cost_modifier = -0.15
+		country_cabinet_efficiency = 0.2
+		tax_income_efficiency = 0.1
+		trade_efficiency = 0.1
+		global_manpower_modifier = 0.1
+	}
+}
+# 物理 Physical
+hsr_trailblazer_physical = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_physical_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		army_infantry_power = 0.15
+		global_manpower_modifier = 0.1
+	}
+}
+# 火 Fire
+hsr_trailblazer_fire = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_fire_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		siege_ability = 0.1
+		army_artillery_power = 0.1
+	}
+}
+# 冰 Ice
+hsr_trailblazer_ice = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_ice_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		global_defensive = 0.1
+		land_unit_attrition = -0.1
+	}
+}
+# 雷 Lightning
+hsr_trailblazer_lightning = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_lightning_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		army_cavalry_power = 0.15
+		army_movement_speed = 0.1
+	}
+}
+# 风 Wind
+hsr_trailblazer_wind = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_wind_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		army_movement_speed = 0.15
+		navy_light_ship_power = 0.1
+	}
+}
+# 量子 Quantum
+hsr_trailblazer_quantum = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_quantum_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		monthly_rebel_growth = -0.0005
+		spy_network_construction = 0.1
+	}
+}
+# 虚数 Imaginary
+hsr_trailblazer_imaginary = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		any_character = { has_trait = HSR_imaginary_trait }
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.05
+        global_hsr_trailblazer_power = 0.33
+
+		research_speed_modifier = 0.05
+		global_defensive = 0.05
+	}
+}
+# 军事指挥权
+hsr_trailblazer_leader = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.1
+        global_hsr_trailblazer_power = 0.5
+
+		hsr_trailblazer_allowed_leading_military = yes
+		monthly_army_tradition = 0.05
+		army_tradition_decay = -0.001
+		monthly_navy_tradition = 0.05
+		navy_tradition_decay = -0.01
+	}
+}
+# 顾问权
+hsr_trailblazer_advisor = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.1
+        global_hsr_trailblazer_power = 0.5
+
+		hsr_trailblazer_allowed_in_cabinet = yes
+		hire_advisor_cost_modifier = -0.25
+		government_size = 1
+	}
+}
+# 执政权
+hsr_trailblazer_rule = {
+	estate = hsr_trailblazer
+
+    potential = {
+		has_estate_privilege = estate_privilege:hsr_trailblazer_base
+	}
+	allow = {
+		
+	}
+	can_revoke = {
+		
+	}
+
+	country_modifier = {
+        hsr_trailblazer_target_satisfaction = 0.1
+        global_hsr_trailblazer_power = 0.5
+
+		diplomatic_capacity_modifier = 0.3
+		country_cabinet_efficiency = 0.15
+	}
+}

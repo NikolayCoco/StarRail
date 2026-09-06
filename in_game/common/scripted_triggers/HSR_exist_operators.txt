@@ -1,0 +1,9 @@
+# 存在尚未被招募的角色（M1 单测试角色；M2 生成全量）
+HSR_exist_operator = {
+    custom_tooltip = {
+        text = HSR_exist_operator_tooltip
+        OR = {
+            NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_march7_01_trait_leader } }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+hsr_pop = {
+    color = HSR_main_color
+
+	pop_food_consumption = 1
+	grow = no
+	assimilation_conversion_factor = 0.0
+	migration_factor = 0.0
+
+    hsr_trailblazer = { }
+}

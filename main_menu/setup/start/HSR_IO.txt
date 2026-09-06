@@ -1,0 +1,11 @@
+international_organization_manager = {
+	add_international_organization = {
+		type = HSR_express_IO
+		creation_date = 1.1.1
+		members = { }
+		#leader = AG0
+		variables = {
+			seat = location:moscow
+		}
+	}
+}

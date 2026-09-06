@@ -1,0 +1,22 @@
+# 该角色是否是一名「开拓者」（星穹来客）
+HSR_trailblazer_trigger = {
+    OR = {
+        has_character_modifier = HSR_character_base_modifier
+        has_character_modifier = HSR_character_base_modifier_immortal
+        has_character_modifier = HSR_character_base_modifier_marriage
+        has_character_modifier = HSR_character_base_modifier_marriage_immortal
+        has_trait = HSR_physical_trait
+        has_trait = HSR_fire_trait
+        has_trait = HSR_ice_trait
+        has_trait = HSR_lightning_trait
+        has_trait = HSR_wind_trait
+        has_trait = HSR_quantum_trait
+        has_trait = HSR_imaginary_trait
+    }
+}
+# 2D 立绘总开关（启用 2D 体系后供 portrait modifier 使用；未放立绘前不设置全局变量）
+HSR_2D_portrait_trigger = {
+    has_global_variable = HSR_2D_portrait_enabled
+    HSR_trailblazer_trigger = yes
+}
+# 存在尚未被招募的角色 → 定义见 HSR_exist_operators.txt（M2 生成全量）

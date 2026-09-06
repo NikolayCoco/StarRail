@@ -1,0 +1,234 @@
+organization_panel = {
+	 # 顶部标志和背景
+	blockoverride "organization_panel_extra_item" {
+		allow_outside = yes
+		flowcontainer = {
+			parentanchor = top|hcenter
+			icon = {
+				parentanchor = top
+				texture = "gfx/interface/icons/international_organizations/HSR_express_IO_coa.dds"
+				texture_density = 2
+				size = { 100 100 }
+			}
+			position = {0 -50}
+		}
+		tooltipwidget = {
+			ContextualTooltipType = {
+				blockoverride "title_icon" {
+					icon = {
+						texture = "gfx/interface/icons/international_organizations/HSR_express_IO.dds"
+						size = { 42 42 }
+					}
+				}
+				blockoverride "title_text" {
+					text = "HSR_express_IO"
+				}
+				blockoverride "tooltip_content" {
+					TooltipTextBlock = {
+						blockoverride "text" {
+							text = "HSR_express_IO_desc"
+						}
+					}
+					TooltipTextBlock = {
+						blockoverride "text" {
+							text = "HSR_express_desc"
+						}
+					}
+				}
+			}
+		}
+	}
+	# 概览
+    blockoverride "organization_overview_tab_visible" {
+        visible = yes
+    }
+    blockoverride "organization_panel_overview_visible" {
+        visible = "[InternationalOrganizationsView.Vars.NotExistOrHasValue( 'organizations', 'overview' )]"
+    }
+	blockoverride "organization_members_tab_down" {
+		down = "[InternationalOrganizationsView.Vars.HasValue( 'organizations', 'members' )]"
+	}
+	blockoverride "organization_panel_members_visible" {
+        visible = "[InternationalOrganizationsView.Vars.HasValue( 'organizations', 'members' )]"
+    }
+	# 变量栏
+	blockoverride "ios_information_header_visible" {
+		visible = yes
+	}
+	blockoverride "ios_information_header_content_extra_1" { # 星琼
+		using = ios_header_content_extra_template
+		blockoverride "ios_header_content_extra" {
+			text_single = {
+				autoresize = yes
+				align = right
+				raw_text = "[GetPlayer.MakeScope.GetVariable('HSR_StellarJade').GetValue]"
+			}
+			widget = {
+				size = { 24 24 }
+				icon = {
+					size = { 100% 100% }
+					texture = "gfx/interface/icons/text/HSR_StellarJade.dds"
+				}
+			}
+			tooltipwidget = {
+				ContextualTooltipType = {
+					blockoverride "title_icon" {
+						icon = {
+							texture = "gfx/interface/icons/text/HSR_StellarJade.dds"
+							size = { 42 42 }
+						}
+					}
+					blockoverride "title_text" {
+						text = "HSR_StellarJade"
+					}
+					blockoverride "tooltip_content" {
+						TooltipTextBlock = {
+							blockoverride "text" {
+								text = "HSR_StellarJade_desc"
+							}
+						}
+						TooltipTextBlock = {
+							blockoverride "block_title" {
+								text = "HSR_StellarJade_Change"
+							}
+							blockoverride "text" {
+								text = "HSR_StellarJade_Change_Value"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	# 主要行动
+    blockoverride "organization_main_actions_extra_visible" {
+        visible = yes 
+    }
+    blockoverride "organization_main_actions_extra" {
+		action_button_diamond = { # 空月祝福
+			size = {470 30}
+			title = "HSR_Pay_30"
+			text = "HSR_Pay_30"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "HSR_Pay_30"
+			}
+            tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/HSR_Pay_30.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 星琼组合包
+			size = {470 30}
+			title = "HSR_Pay_648"
+			text = "HSR_Pay_648"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "HSR_Pay_648"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/HSR_Pay_648.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 跃迁
+			size = {470 30}
+			title = "HSR_create_character"
+			text = "HSR_create_character"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "HSR_create_character"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/HSR_create_character.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 开拓者登记
+			size = {470 30}
+			title = "HSR_create_pop"
+			text = "HSR_create_pop"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "HSR_create_pop"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/international_organizations/action/HSR_create_pop.dds"
+					}
+				}
+            }
+		}
+        action_button_diamond = { # 回兑
+			size = {470 30}
+			title = "HSR_StellarJade_for_golden"
+			text = "HSR_StellarJade_for_golden"
+			actor = "[InternationalOrganizationsView.GetPlayer]"
+			left_action = {
+				action_name = "HSR_StellarJade_for_golden"
+			}
+			tooltipwidget = {
+                using = action_tooltip_pop_out
+				blockoverride "title_icon" {
+					icon = {
+						using = tooltip_title_icon_size
+						texture = "gfx/interface/icons/flat_icons/gold.dds"
+					}
+				}
+            }
+		}
+    }
+	# 底部教程
+	blockoverride "organization_overview_list_custom_bottom" {       
+        vbox = {
+            card_expandable = {
+                blockoverride "header_content" {
+                    icon = {
+                        size = { 30 30 }
+                        block "header_icon" {
+                            texture = "gfx/interface/icons/flat_icons/tabicons/hints.dds"
+                        }
+                        texture_density = 2
+                    }
+                    text_single = {
+                        block "header_text" {
+                            margin = { 10 0 }
+                            raw_text = "HSR_express_IO_hint_title"
+                        }
+                    }
+                    expand = {}
+                }
+                blockoverride "bottom_content" {
+                    hbox = {
+                        layoutpolicy_horizontal = expanding
+                        text_single = {
+                            margin = { 20 10 }
+                            text = "HSR_express_IO_hint_desc"
+                            multiline = yes
+                            autoresize = yes
+                            layoutpolicy_horizontal = expanding  
+                        }
+                    }
+                }  
+            } 
+        }
+    }
+}

@@ -1,0 +1,8 @@
+hsr_trailblazer = {
+	type = country
+
+	text = {
+		localization_key = hsr_trailblazer
+		fallback = yes
+	}
+}
