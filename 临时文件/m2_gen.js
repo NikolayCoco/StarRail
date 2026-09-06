@@ -7,6 +7,7 @@ const MOD = path.join(__dirname, '..');
 
 const full = JSON.parse(fs.readFileSync(path.join(TMP, 'srs_full.json'), 'utf8'));
 const enNames = JSON.parse(fs.readFileSync(path.join(TMP, 'srs_en_names.json'), 'utf8'));
+const voice = JSON.parse(fs.readFileSync(path.join(TMP, 'voice_lines.json'), 'utf8'));
 
 // 命途 -> 宗教 id
 const PATH_REL = {
@@ -85,13 +86,13 @@ for (const r of full) {
   locZh['nameF_' + id] = name;
   locZh['HSR_' + id + '_01_trait'] = name;
   locZh['HSR_' + id + '_01_trait_leader'] = name;
-  locZh['desc_HSR_' + id + '_01_trait'] = `${name}，${star}星${pathZh}角色，隶属${camp}。`;
-  locZh['desc_HSR_' + id + '_01_trait_leader'] = `${name}可作为将领统率军队。`;
+  locZh['desc_HSR_' + id + '_01_trait'] = (voice[id] && voice[id].first) ? voice[id].first : `${name}，${star}星${pathZh}角色，隶属${camp}。`;
+  locZh['desc_HSR_' + id + '_01_trait_leader'] = (voice[id] && voice[id].turn) ? voice[id].turn : `${name}可作为将领统率军队。`;
   locEn['nameF_' + id] = enName;
   locEn['HSR_' + id + '_01_trait'] = enName;
   locEn['HSR_' + id + '_01_trait_leader'] = enName;
-  locEn['desc_HSR_' + id + '_01_trait'] = `${enName}, a ${star}-star ${pathZh} character of ${CAMP_LOC[camp]?.[1] || camp}.`;
-  locEn['desc_HSR_' + id + '_01_trait_leader'] = `${enName} may lead armies as a general.`;
+  locEn['desc_HSR_' + id + '_01_trait'] = (voice[id] && voice[id].first) ? voice[id].first : `${enName}, a ${star}-star ${pathZh} character of ${CAMP_LOC[camp]?.[1] || camp}.`;
+  locEn['desc_HSR_' + id + '_01_trait_leader'] = (voice[id] && voice[id].turn) ? voice[id].turn : `${enName} may lead armies as a general.`;
   count++;
 }
 
