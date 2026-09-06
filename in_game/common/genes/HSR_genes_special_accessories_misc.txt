@@ -1,2 +1,977 @@
 accessory_genes = {
+	HSRprops_1 = {
+		gene_HSR_blank_1 = {
+			index = 0
+		}
+		HSR_acheron_01 = {
+			index = 1
+			male = { 1 = HSR_acheron_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_aglaea_01 = {
+			index = 2
+			male = { 1 = HSR_aglaea_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_anaxa_01 = {
+			index = 3
+			male = { 1 = HSR_anaxa_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_archer_01 = {
+			index = 4
+			male = { 1 = HSR_archer_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_argenti_01 = {
+			index = 5
+			male = { 1 = HSR_argenti_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_arlan_01 = {
+			index = 6
+			male = { 1 = HSR_arlan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_ashveil_01 = {
+			index = 7
+			male = { 1 = HSR_ashveil_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_asta_01 = {
+			index = 8
+			male = { 1 = HSR_asta_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_aventurine_01 = {
+			index = 9
+			male = { 1 = HSR_aventurine_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_aventurinewaveflair_01 = {
+			index = 10
+			male = { 1 = HSR_aventurinewaveflair_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_bailu_01 = {
+			index = 11
+			male = { 1 = HSR_bailu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_blackswan_01 = {
+			index = 12
+			male = { 1 = HSR_blackswan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_blade_01 = {
+			index = 13
+			male = { 1 = HSR_blade_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_boothill_01 = {
+			index = 14
+			male = { 1 = HSR_boothill_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_bronya_01 = {
+			index = 15
+			male = { 1 = HSR_bronya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_castorice_01 = {
+			index = 16
+			male = { 1 = HSR_castorice_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_cerydra_01 = {
+			index = 17
+			male = { 1 = HSR_cerydra_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_cipher_01 = {
+			index = 18
+			male = { 1 = HSR_cipher_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_clara_01 = {
+			index = 19
+			male = { 1 = HSR_clara_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_cyrene_01 = {
+			index = 20
+			male = { 1 = HSR_cyrene_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_dahlia_01 = {
+			index = 21
+			male = { 1 = HSR_dahlia_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_danheng_01 = {
+			index = 22
+			male = { 1 = HSR_danheng_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_danhengil_01 = {
+			index = 23
+			male = { 1 = HSR_danhengil_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_danhengpt_01 = {
+			index = 24
+			male = { 1 = HSR_danhengpt_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_drratio_01 = {
+			index = 25
+			male = { 1 = HSR_drratio_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_evanescia_01 = {
+			index = 26
+			male = { 1 = HSR_evanescia_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_evernight_01 = {
+			index = 27
+			male = { 1 = HSR_evernight_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_feixiao_01 = {
+			index = 28
+			male = { 1 = HSR_feixiao_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_fugue_01 = {
+			index = 29
+			male = { 1 = HSR_fugue_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_fuxuan_01 = {
+			index = 30
+			male = { 1 = HSR_fuxuan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_gallagher_01 = {
+			index = 31
+			male = { 1 = HSR_gallagher_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_gepard_01 = {
+			index = 32
+			male = { 1 = HSR_gepard_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_gilgamesh_01 = {
+			index = 33
+			male = { 1 = HSR_gilgamesh_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_guinaifen_01 = {
+			index = 34
+			male = { 1 = HSR_guinaifen_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_hanya_01 = {
+			index = 35
+			male = { 1 = HSR_hanya_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_herta_01 = {
+			index = 36
+			male = { 1 = HSR_herta_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_himeko_01 = {
+			index = 37
+			male = { 1 = HSR_himeko_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_himekonova_01 = {
+			index = 38
+			male = { 1 = HSR_himekonova_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_hook_01 = {
+			index = 39
+			male = { 1 = HSR_hook_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_huohuo_01 = {
+			index = 40
+			male = { 1 = HSR_huohuo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_hyacine_01 = {
+			index = 41
+			male = { 1 = HSR_hyacine_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_hysilens_01 = {
+			index = 42
+			male = { 1 = HSR_hysilens_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_jade_01 = {
+			index = 43
+			male = { 1 = HSR_jade_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_jiaoqiu_01 = {
+			index = 44
+			male = { 1 = HSR_jiaoqiu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_jingliu_01 = {
+			index = 45
+			male = { 1 = HSR_jingliu_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_jingyuan_01 = {
+			index = 46
+			male = { 1 = HSR_jingyuan_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_kafka_01 = {
+			index = 47
+			male = { 1 = HSR_kafka_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_lingsha_01 = {
+			index = 48
+			male = { 1 = HSR_lingsha_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_luka_01 = {
+			index = 49
+			male = { 1 = HSR_luka_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_luocha_01 = {
+			index = 50
+			male = { 1 = HSR_luocha_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_lynx_01 = {
+			index = 51
+			male = { 1 = HSR_lynx_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_mar7th2_01 = {
+			index = 52
+			male = { 1 = HSR_mar7th2_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_mar7th_01 = {
+			index = 53
+			male = { 1 = HSR_mar7th_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_misha_01 = {
+			index = 54
+			male = { 1 = HSR_misha_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_mortenaxblade_01 = {
+			index = 55
+			male = { 1 = HSR_mortenaxblade_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_moze_01 = {
+			index = 56
+			male = { 1 = HSR_moze_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_mydei_01 = {
+			index = 57
+			male = { 1 = HSR_mydei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_natasha_01 = {
+			index = 58
+			male = { 1 = HSR_natasha_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_pela_01 = {
+			index = 59
+			male = { 1 = HSR_pela_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_phainon_01 = {
+			index = 60
+			male = { 1 = HSR_phainon_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playerboy2_01 = {
+			index = 61
+			male = { 1 = HSR_playerboy2_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playerboy3_01 = {
+			index = 62
+			male = { 1 = HSR_playerboy3_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playerboy4_01 = {
+			index = 63
+			male = { 1 = HSR_playerboy4_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playerboy5_01 = {
+			index = 64
+			male = { 1 = HSR_playerboy5_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playerboy_01 = {
+			index = 65
+			male = { 1 = HSR_playerboy_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playergirl2_01 = {
+			index = 66
+			male = { 1 = HSR_playergirl2_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playergirl3_01 = {
+			index = 67
+			male = { 1 = HSR_playergirl3_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playergirl4_01 = {
+			index = 68
+			male = { 1 = HSR_playergirl4_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playergirl5_01 = {
+			index = 69
+			male = { 1 = HSR_playergirl5_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_playergirl_01 = {
+			index = 70
+			male = { 1 = HSR_playergirl_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_qingque_01 = {
+			index = 71
+			male = { 1 = HSR_qingque_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_rappa_01 = {
+			index = 72
+			male = { 1 = HSR_rappa_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_robin_01 = {
+			index = 73
+			male = { 1 = HSR_robin_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_robinsummeretto_01 = {
+			index = 74
+			male = { 1 = HSR_robinsummeretto_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_ruanmei_01 = {
+			index = 75
+			male = { 1 = HSR_ruanmei_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_saber_01 = {
+			index = 76
+			male = { 1 = HSR_saber_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_sam_01 = {
+			index = 77
+			male = { 1 = HSR_sam_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_sampo_01 = {
+			index = 78
+			male = { 1 = HSR_sampo_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_seele_01 = {
+			index = 79
+			male = { 1 = HSR_seele_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_serval_01 = {
+			index = 80
+			male = { 1 = HSR_serval_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_silverwolf_01 = {
+			index = 81
+			male = { 1 = HSR_silverwolf_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_silverwolflv999_01 = {
+			index = 82
+			male = { 1 = HSR_silverwolflv999_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_sparkle_01 = {
+			index = 83
+			male = { 1 = HSR_sparkle_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_sparxie_01 = {
+			index = 84
+			male = { 1 = HSR_sparxie_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_sunday_01 = {
+			index = 85
+			male = { 1 = HSR_sunday_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_sushang_01 = {
+			index = 86
+			male = { 1 = HSR_sushang_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_theherta_01 = {
+			index = 87
+			male = { 1 = HSR_theherta_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_tingyun_01 = {
+			index = 88
+			male = { 1 = HSR_tingyun_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_tohsakarin_01 = {
+			index = 89
+			male = { 1 = HSR_tohsakarin_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_topaz_01 = {
+			index = 90
+			male = { 1 = HSR_topaz_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_tribbie_01 = {
+			index = 91
+			male = { 1 = HSR_tribbie_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_welt_01 = {
+			index = 92
+			male = { 1 = HSR_welt_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_xueyi_01 = {
+			index = 93
+			male = { 1 = HSR_xueyi_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_yanqing_01 = {
+			index = 94
+			male = { 1 = HSR_yanqing_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_yaoguang_01 = {
+			index = 95
+			male = { 1 = HSR_yaoguang_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_yukong_01 = {
+			index = 96
+			male = { 1 = HSR_yukong_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+		HSR_yunli_01 = {
+			index = 97
+			male = { 1 = HSR_yunli_01 }
+			female = male
+			boy = male
+			girl = male
+			adolescent_boy = male
+			adolescent_girl = male
+			infant = male
+		}
+	}
 }

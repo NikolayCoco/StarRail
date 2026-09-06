@@ -1,4 +1,1751 @@
 HSR_portrait = {
 	usage = game
 	priority = 100
+
+	HSR_acheron_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_acheron_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_acheron_01_trait
+			}
+		}
+	}
+	HSR_aglaea_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_aglaea_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_aglaea_01_trait
+			}
+		}
+	}
+	HSR_anaxa_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_anaxa_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_anaxa_01_trait
+			}
+		}
+	}
+	HSR_archer_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_archer_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_archer_01_trait
+			}
+		}
+	}
+	HSR_argenti_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_argenti_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_argenti_01_trait
+			}
+		}
+	}
+	HSR_arlan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_arlan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_arlan_01_trait
+			}
+		}
+	}
+	HSR_ashveil_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_ashveil_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_ashveil_01_trait
+			}
+		}
+	}
+	HSR_asta_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_asta_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_asta_01_trait
+			}
+		}
+	}
+	HSR_aventurine_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_aventurine_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_aventurine_01_trait
+			}
+		}
+	}
+	HSR_aventurinewaveflair_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_aventurinewaveflair_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_aventurinewaveflair_01_trait
+			}
+		}
+	}
+	HSR_bailu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_bailu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_bailu_01_trait
+			}
+		}
+	}
+	HSR_blackswan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_blackswan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_blackswan_01_trait
+			}
+		}
+	}
+	HSR_blade_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_blade_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_blade_01_trait
+			}
+		}
+	}
+	HSR_boothill_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_boothill_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_boothill_01_trait
+			}
+		}
+	}
+	HSR_bronya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_bronya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_bronya_01_trait
+			}
+		}
+	}
+	HSR_castorice_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_castorice_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_castorice_01_trait
+			}
+		}
+	}
+	HSR_cerydra_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_cerydra_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_cerydra_01_trait
+			}
+		}
+	}
+	HSR_cipher_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_cipher_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_cipher_01_trait
+			}
+		}
+	}
+	HSR_clara_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_clara_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_clara_01_trait
+			}
+		}
+	}
+	HSR_cyrene_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_cyrene_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_cyrene_01_trait
+			}
+		}
+	}
+	HSR_dahlia_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_dahlia_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_dahlia_01_trait
+			}
+		}
+	}
+	HSR_danheng_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_danheng_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_danheng_01_trait
+			}
+		}
+	}
+	HSR_danhengil_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_danhengil_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_danhengil_01_trait
+			}
+		}
+	}
+	HSR_danhengpt_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_danhengpt_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_danhengpt_01_trait
+			}
+		}
+	}
+	HSR_drratio_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_drratio_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_drratio_01_trait
+			}
+		}
+	}
+	HSR_evanescia_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_evanescia_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_evanescia_01_trait
+			}
+		}
+	}
+	HSR_evernight_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_evernight_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_evernight_01_trait
+			}
+		}
+	}
+	HSR_feixiao_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_feixiao_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_feixiao_01_trait
+			}
+		}
+	}
+	HSR_fugue_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_fugue_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_fugue_01_trait
+			}
+		}
+	}
+	HSR_fuxuan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_fuxuan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_fuxuan_01_trait
+			}
+		}
+	}
+	HSR_gallagher_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_gallagher_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_gallagher_01_trait
+			}
+		}
+	}
+	HSR_gepard_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_gepard_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_gepard_01_trait
+			}
+		}
+	}
+	HSR_gilgamesh_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_gilgamesh_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_gilgamesh_01_trait
+			}
+		}
+	}
+	HSR_guinaifen_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_guinaifen_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_guinaifen_01_trait
+			}
+		}
+	}
+	HSR_hanya_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_hanya_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_hanya_01_trait
+			}
+		}
+	}
+	HSR_herta_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_herta_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_herta_01_trait
+			}
+		}
+	}
+	HSR_himeko_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_himeko_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_himeko_01_trait
+			}
+		}
+	}
+	HSR_himekonova_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_himekonova_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_himekonova_01_trait
+			}
+		}
+	}
+	HSR_hook_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_hook_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_hook_01_trait
+			}
+		}
+	}
+	HSR_huohuo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_huohuo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_huohuo_01_trait
+			}
+		}
+	}
+	HSR_hyacine_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_hyacine_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_hyacine_01_trait
+			}
+		}
+	}
+	HSR_hysilens_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_hysilens_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_hysilens_01_trait
+			}
+		}
+	}
+	HSR_jade_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_jade_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_jade_01_trait
+			}
+		}
+	}
+	HSR_jiaoqiu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_jiaoqiu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_jiaoqiu_01_trait
+			}
+		}
+	}
+	HSR_jingliu_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_jingliu_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_jingliu_01_trait
+			}
+		}
+	}
+	HSR_jingyuan_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_jingyuan_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_jingyuan_01_trait
+			}
+		}
+	}
+	HSR_kafka_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_kafka_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_kafka_01_trait
+			}
+		}
+	}
+	HSR_lingsha_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_lingsha_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_lingsha_01_trait
+			}
+		}
+	}
+	HSR_luka_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_luka_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_luka_01_trait
+			}
+		}
+	}
+	HSR_luocha_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_luocha_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_luocha_01_trait
+			}
+		}
+	}
+	HSR_lynx_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_lynx_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_lynx_01_trait
+			}
+		}
+	}
+	HSR_mar7th2_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_mar7th2_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_mar7th2_01_trait
+			}
+		}
+	}
+	HSR_mar7th_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_mar7th_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_mar7th_01_trait
+			}
+		}
+	}
+	HSR_misha_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_misha_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_misha_01_trait
+			}
+		}
+	}
+	HSR_mortenaxblade_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_mortenaxblade_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_mortenaxblade_01_trait
+			}
+		}
+	}
+	HSR_moze_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_moze_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_moze_01_trait
+			}
+		}
+	}
+	HSR_mydei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_mydei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_mydei_01_trait
+			}
+		}
+	}
+	HSR_natasha_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_natasha_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_natasha_01_trait
+			}
+		}
+	}
+	HSR_pela_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_pela_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_pela_01_trait
+			}
+		}
+	}
+	HSR_phainon_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_phainon_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_phainon_01_trait
+			}
+		}
+	}
+	HSR_playerboy2_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playerboy2_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playerboy2_01_trait
+			}
+		}
+	}
+	HSR_playerboy3_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playerboy3_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playerboy3_01_trait
+			}
+		}
+	}
+	HSR_playerboy4_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playerboy4_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playerboy4_01_trait
+			}
+		}
+	}
+	HSR_playerboy5_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playerboy5_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playerboy5_01_trait
+			}
+		}
+	}
+	HSR_playerboy_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playerboy_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playerboy_01_trait
+			}
+		}
+	}
+	HSR_playergirl2_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playergirl2_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playergirl2_01_trait
+			}
+		}
+	}
+	HSR_playergirl3_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playergirl3_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playergirl3_01_trait
+			}
+		}
+	}
+	HSR_playergirl4_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playergirl4_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playergirl4_01_trait
+			}
+		}
+	}
+	HSR_playergirl5_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playergirl5_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playergirl5_01_trait
+			}
+		}
+	}
+	HSR_playergirl_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_playergirl_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_playergirl_01_trait
+			}
+		}
+	}
+	HSR_qingque_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_qingque_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_qingque_01_trait
+			}
+		}
+	}
+	HSR_rappa_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_rappa_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_rappa_01_trait
+			}
+		}
+	}
+	HSR_robin_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_robin_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_robin_01_trait
+			}
+		}
+	}
+	HSR_robinsummeretto_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_robinsummeretto_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_robinsummeretto_01_trait
+			}
+		}
+	}
+	HSR_ruanmei_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_ruanmei_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_ruanmei_01_trait
+			}
+		}
+	}
+	HSR_saber_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_saber_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_saber_01_trait
+			}
+		}
+	}
+	HSR_sam_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_sam_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_sam_01_trait
+			}
+		}
+	}
+	HSR_sampo_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_sampo_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_sampo_01_trait
+			}
+		}
+	}
+	HSR_seele_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_seele_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_seele_01_trait
+			}
+		}
+	}
+	HSR_serval_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_serval_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_serval_01_trait
+			}
+		}
+	}
+	HSR_silverwolf_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_silverwolf_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_silverwolf_01_trait
+			}
+		}
+	}
+	HSR_silverwolflv999_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_silverwolflv999_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_silverwolflv999_01_trait
+			}
+		}
+	}
+	HSR_sparkle_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_sparkle_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_sparkle_01_trait
+			}
+		}
+	}
+	HSR_sparxie_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_sparxie_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_sparxie_01_trait
+			}
+		}
+	}
+	HSR_sunday_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_sunday_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_sunday_01_trait
+			}
+		}
+	}
+	HSR_sushang_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_sushang_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_sushang_01_trait
+			}
+		}
+	}
+	HSR_theherta_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_theherta_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_theherta_01_trait
+			}
+		}
+	}
+	HSR_tingyun_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_tingyun_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_tingyun_01_trait
+			}
+		}
+	}
+	HSR_tohsakarin_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_tohsakarin_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_tohsakarin_01_trait
+			}
+		}
+	}
+	HSR_topaz_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_topaz_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_topaz_01_trait
+			}
+		}
+	}
+	HSR_tribbie_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_tribbie_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_tribbie_01_trait
+			}
+		}
+	}
+	HSR_welt_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_welt_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_welt_01_trait
+			}
+		}
+	}
+	HSR_xueyi_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_xueyi_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_xueyi_01_trait
+			}
+		}
+	}
+	HSR_yanqing_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_yanqing_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_yanqing_01_trait
+			}
+		}
+	}
+	HSR_yaoguang_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_yaoguang_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_yaoguang_01_trait
+			}
+		}
+	}
+	HSR_yukong_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_yukong_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_yukong_01_trait
+			}
+		}
+	}
+	HSR_yunli_01 = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = HSRprops_1
+				template = HSR_yunli_01
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 255
+				HSR_2D_portrait_trigger = yes
+				has_trait = HSR_yunli_01_trait
+			}
+		}
+	}
 }
