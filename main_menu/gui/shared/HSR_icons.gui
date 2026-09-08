@@ -108,15 +108,6 @@ texticon = {
 	}
 }
 texticon = {
-	icon = AstralExpress
-	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_AstralExpress.dds"
-		size = { 16 16 }
-		offset = { 0 2 }
-		fontsize = 16
-	}
-}
-texticon = {
 	icon = abundance
 	iconsize = {
 		texture = "gfx/interface/icons/text/HSR_Abundance.dds"
