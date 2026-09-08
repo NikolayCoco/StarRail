@@ -3,25 +3,23 @@
 
 [h1]本mod包含以下内容：[/h1]
 [olist]
-    [*]一个建筑【星穹列车】。
+    [*]一个建筑【星穹列车停靠站】。
     [*]一个国际组织【星穹列车】。
     [*]来自星穹的 70+ 名自机角色，以及他们各自所属阵营的纹章。
-    [*]一个阶层【开拓者】以及各属性的特权。角色从属于该阶层。
-    [*]星穹的命途（星神信仰）。
+    [*]一个阶层【命途行者】以及各属性的特权。角色从属于该阶层。
 [/olist]
 
 [h2]使用方法[/h2]
 [olist]
-    [*]在首都建造建筑【星穹列车】，过月后便会自动加入国际组织【星穹列车】。
+    [*]在首都建造建筑【星穹列车停靠站】，过月后便会自动加入国际组织【星穹列车】。
 [/olist]
 
 [h1]玩法概览[/h1]
 [olist]
-    [*]在首都建造【星穹列车】后即可加入国际组织【星穹列车】，每月获得星琼。
-    [*]使用星琼可以进行跃迁与开拓者登记，招募来自星穹的角色；亦可购买空月祝福获得额外星琼。
-    [*]角色从属于【开拓者】阶层，授予特权后可以将其雇佣进入内阁、担任将领，甚至成为统治者或外派治理附庸。
-    [*]星穹列车据点与开拓者能提高探索与殖民能力、开辟新天地。
-    [*]吞并其他国家后，可以获得其角色。
+    [*]在首都建造【星穹列车停靠站】后即可加入国际组织【星穹列车】，每月获得星琼。
+    [*]使用星琼可以进行跃迁，招募来自星穹的角色；亦可购买列车补给获得额外星琼。
+    [*]角色从属于【命途行者】阶层，授予特权后可以将其雇佣进入内阁、担任将领，甚至成为统治者或外派治理附庸。
+    [*]星穹列车停靠站与命途行者能提高探索与殖民能力、开辟新天地。
 [/olist]
 
 [hr][/hr]
@@ -29,4 +27,49 @@
 [h2]作者的其他二游IOmod[/h2]
 [list]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3622918102]【原神】探索提瓦特[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796664569]【明日方舟】罗德岛[/url]
+[/list]
+[h2]其他泛二次元mod[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3602248049]国家娘美化[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599700212]幻萌入侵 Open Beta[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608139493]抽卡系统·原神风味包[/url]
+[/list]
+
+[Honkai: Star Rail] Astral Express
+A small auxiliary-style anime-themed mod.
+
+[h1]This mod includes the following content:[/h1]
+[olist]
+    [*]A building: [Astral Express Station].
+    [*]An international organization: [Astral Express].
+    [*]70+ playable characters from the star rail, along with the emblems of their respective factions.
+    [*]An estate: [Pathstrider] along with its privileges for various attributes. Characters belong to this estate.
+[/olist]
+
+[h2]How to Use[/h2]
+[olist]
+    [*]Construct the [Astral Express Station] building in your capital. After one month passes, you will automatically join the international organization [Astral Express].
+[/olist]
+
+[h1]Gameplay Overview[/h1]
+[olist]
+    [*]After constructing the [Astral Express Station] in your capital, you join the international organization [Astral Express] and gain Stellar Jade each month.
+    [*]Use Stellar Jade to perform Warp and recruit characters from the star rail; you can also purchase the Express Supply Pass for extra Stellar Jade.
+    [*]Characters belong to the [Pathstrider] estate. After granting privileges, you can hire them into the cabinet, appoint them as generals, or even make them rulers or send them to govern subject nations.
+    [*]The Astral Express Station and Pathstriders improve exploration and colonization capabilities, opening up new frontiers.
+[/olist]
+
+[hr][/hr]
+[h1]Friend Links[/h1]
+[h2]Other mihoyo-themed IO mods by the author[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3622918102][Genshin] Discover Teyvat[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796664569][Arknights] Rhodes Island[/url]
+[/list]
+[h2]Other anime-themed mods[/h2]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3602248049] Anime Style Makeover [ALL language support] [/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3599700212]幻萌入侵 Open Beta[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3608139493] eu5_gacha [/url]
 [/list]
