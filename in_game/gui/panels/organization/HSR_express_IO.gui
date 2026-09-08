@@ -67,14 +67,14 @@ organization_panel = {
 				size = { 24 24 }
 				icon = {
 					size = { 100% 100% }
-					texture = "gfx/interface/icons/text/HSR_StellarJade.dds"
+					texture = "gfx/interface/icons/international_organizations/HSR_StellarJade.dds"
 				}
 			}
 			tooltipwidget = {
 				ContextualTooltipType = {
 					blockoverride "title_icon" {
 						icon = {
-							texture = "gfx/interface/icons/text/HSR_StellarJade.dds"
+							texture = "gfx/interface/icons/international_organizations/HSR_StellarJade.dds"
 							size = { 42 42 }
 						}
 					}

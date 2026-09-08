@@ -3,7 +3,7 @@
 	"id":	"StarRail",
 	"version":	"1.0",
 	"supported_game_version":	"1.3.11",
-	"short_description":	"一个小型辅助二次元mod。添加了一个国际组织「星穹列车」，可以获得星穹铁道角色和「开拓者」阶层。\n\n目前处于开发阶段。",
+	"short_description":	"一个小型辅助二次元mod。添加了一个国际组织「星穹列车」，可以获得星穹铁道角色和命途行者阶层。",
 	"tags":	["Characters", "Diplomacy", "Events", "Gameplay", "Government and Estates", "International Organizations"],
 	"picture" : "thumbnail.png",
 	"relationships" : [
