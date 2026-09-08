@@ -1,0 +1,214 @@
+# StarRail 事件插图画廊（仿 DvT_event_picture.txt / DvT_religions_background.txt）
+# 用于 HSR_character_events.1 角色招募事件背景：按 target_character 的星神宗教选图，通用兜底用 HSR_main
+HSR_recruit_illustration = {
+	tag = "HSR_recruit_backgrounds"
+	# 通用兜底图
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_main.dds"
+		priority = 1000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+		}
+	}
+	# 18 星神 —— 按角色信仰选图
+	# Abundance
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Abundance.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Abundance_Worship }
+		}
+	}
+	# Beauty
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Beauty.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Beauty_Worship }
+		}
+	}
+	# Destruction
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Destruction.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Destruction_Worship }
+		}
+	}
+	# Elation
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Elation.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Elation_Worship }
+		}
+	}
+	# Enigmata
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Enigmata.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Enigmata_Worship }
+		}
+	}
+	# Equilibrium
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Equilibrium.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Equilibrium_Worship }
+		}
+	}
+	# Erudition
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Erudition.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Erudition_Worship }
+		}
+	}
+	# Finality
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Finality.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Finality_Worship }
+		}
+	}
+	# Harmony
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Harmony.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Harmony_Worship }
+		}
+	}
+	# Hunt
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Hunt.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Hunt_Worship }
+		}
+	}
+	# Nihility
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Nihility.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Nihility_Worship }
+		}
+	}
+	# Order
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Order.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Order_Worship }
+		}
+	}
+	# Permanence
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Permanence.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Permanence_Worship }
+		}
+	}
+	# Preservation
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Preservation.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Preservation_Worship }
+		}
+	}
+	# Propagation
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Propagation.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Propagation_Worship }
+		}
+	}
+	# Remembrance
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Remembrance.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Remembrance_Worship }
+		}
+	}
+	# Trailblaze
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Trailblaze.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Trailblaze_Worship }
+		}
+	}
+	# Voracity
+	illustration_image = {
+		texture_file = "gfx/event_pictures/HSR_Voracity.dds"
+		priority = 2000
+		scope = country
+		trigger = {
+			event_illustration_background_trigger = yes
+			scope:target_pop_type_bckg ?= { this = pop_type:hsr_pop }
+			scope:target_character = { religion = religion:Voracity_Worship }
+		}
+	}
+}
