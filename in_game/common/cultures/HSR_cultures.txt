@@ -221,7 +221,7 @@ masked_fools_culture = {
 	tags = { astral_gfx european_gfx }
 	opinions = {
 	}
-	culture_groups = { masked_fools_group tavern_group }
+	culture_groups = { tavern_group }
 }
 new_babylon_culture = {
 	language = common_language

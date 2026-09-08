@@ -32,3 +32,13 @@
  Propagation_Worship: "Propagation"
  Voracity_Worship: "Voracity"
  Finality_Worship: "Finality"
+
+ HSR_destruction_trait: "Destruction"
+ HSR_hunt_trait: "The Hunt"
+ HSR_erudition_trait: "Erudition"
+ HSR_harmony_trait: "Harmony"
+ HSR_nihility_trait: "Nihility"
+ HSR_preservation_trait: "Preservation"
+ HSR_abundance_trait: "Abundance"
+ HSR_remembrance_trait: "Remembrance"
+ HSR_elation_trait: "Elation"
