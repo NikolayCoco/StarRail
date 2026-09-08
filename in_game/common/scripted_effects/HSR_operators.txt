@@ -1454,3 +1454,398 @@ HSR_create_character_yunli = {
 		ability_level = 95
 	}
 }
+HSR_create_character_random = {
+    custom_tooltip = {
+        text = HSR_create_character_random_tooltip
+        random_list = {
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_acheron_01_trait_leader } } }
+                HSR_create_character_acheron = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_aglaea_01_trait_leader } } }
+                HSR_create_character_aglaea = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_anaxa_01_trait_leader } } }
+                HSR_create_character_anaxa = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_archer_01_trait_leader } } }
+                HSR_create_character_archer = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_argenti_01_trait_leader } } }
+                HSR_create_character_argenti = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_arlan_01_trait_leader } } }
+                HSR_create_character_arlan = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_ashveil_01_trait_leader } } }
+                HSR_create_character_ashveil = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_asta_01_trait_leader } } }
+                HSR_create_character_asta = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_aventurine_01_trait_leader } } }
+                HSR_create_character_aventurine = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_aventurinewaveflair_01_trait_leader } } }
+                HSR_create_character_aventurinewaveflair = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_bailu_01_trait_leader } } }
+                HSR_create_character_bailu = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_blackswan_01_trait_leader } } }
+                HSR_create_character_blackswan = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_blade_01_trait_leader } } }
+                HSR_create_character_blade = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_boothill_01_trait_leader } } }
+                HSR_create_character_boothill = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_bronya_01_trait_leader } } }
+                HSR_create_character_bronya = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_castorice_01_trait_leader } } }
+                HSR_create_character_castorice = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_cerydra_01_trait_leader } } }
+                HSR_create_character_cerydra = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_cipher_01_trait_leader } } }
+                HSR_create_character_cipher = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_clara_01_trait_leader } } }
+                HSR_create_character_clara = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_cyrene_01_trait_leader } } }
+                HSR_create_character_cyrene = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_dahlia_01_trait_leader } } }
+                HSR_create_character_dahlia = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_01_trait_leader } } }
+                HSR_create_character_danheng = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danhengil_01_trait_leader } } }
+                HSR_create_character_danhengil = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danhengpt_01_trait_leader } } }
+                HSR_create_character_danhengpt = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_drratio_01_trait_leader } } }
+                HSR_create_character_drratio = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_evanescia_01_trait_leader } } }
+                HSR_create_character_evanescia = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_evernight_01_trait_leader } } }
+                HSR_create_character_evernight = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_feixiao_01_trait_leader } } }
+                HSR_create_character_feixiao = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_fugue_01_trait_leader } } }
+                HSR_create_character_fugue = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_fuxuan_01_trait_leader } } }
+                HSR_create_character_fuxuan = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_gallagher_01_trait_leader } } }
+                HSR_create_character_gallagher = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_gepard_01_trait_leader } } }
+                HSR_create_character_gepard = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_gilgamesh_01_trait_leader } } }
+                HSR_create_character_gilgamesh = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_guinaifen_01_trait_leader } } }
+                HSR_create_character_guinaifen = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hanya_01_trait_leader } } }
+                HSR_create_character_hanya = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_herta_01_trait_leader } } }
+                HSR_create_character_herta = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_himeko_01_trait_leader } } }
+                HSR_create_character_himeko = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_himekonova_01_trait_leader } } }
+                HSR_create_character_himekonova = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hook_01_trait_leader } } }
+                HSR_create_character_hook = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_huohuo_01_trait_leader } } }
+                HSR_create_character_huohuo = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hyacine_01_trait_leader } } }
+                HSR_create_character_hyacine = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hysilens_01_trait_leader } } }
+                HSR_create_character_hysilens = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jade_01_trait_leader } } }
+                HSR_create_character_jade = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiaoqiu_01_trait_leader } } }
+                HSR_create_character_jiaoqiu = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jingliu_01_trait_leader } } }
+                HSR_create_character_jingliu = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jingyuan_01_trait_leader } } }
+                HSR_create_character_jingyuan = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kafka_01_trait_leader } } }
+                HSR_create_character_kafka = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_lingsha_01_trait_leader } } }
+                HSR_create_character_lingsha = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luka_01_trait_leader } } }
+                HSR_create_character_luka = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luocha_01_trait_leader } } }
+                HSR_create_character_luocha = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_lynx_01_trait_leader } } }
+                HSR_create_character_lynx = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mar7th_01_trait_leader } } }
+                HSR_create_character_mar7th = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mar7th2_01_trait_leader } } }
+                HSR_create_character_mar7th2 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_misha_01_trait_leader } } }
+                HSR_create_character_misha = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mortenaxblade_01_trait_leader } } }
+                HSR_create_character_mortenaxblade = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_moze_01_trait_leader } } }
+                HSR_create_character_moze = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mydei_01_trait_leader } } }
+                HSR_create_character_mydei = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_natasha_01_trait_leader } } }
+                HSR_create_character_natasha = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_pela_01_trait_leader } } }
+                HSR_create_character_pela = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_phainon_01_trait_leader } } }
+                HSR_create_character_phainon = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy_01_trait_leader } } }
+                HSR_create_character_playerboy = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy2_01_trait_leader } } }
+                HSR_create_character_playerboy2 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy3_01_trait_leader } } }
+                HSR_create_character_playerboy3 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy4_01_trait_leader } } }
+                HSR_create_character_playerboy4 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy5_01_trait_leader } } }
+                HSR_create_character_playerboy5 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl_01_trait_leader } } }
+                HSR_create_character_playergirl = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl2_01_trait_leader } } }
+                HSR_create_character_playergirl2 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl3_01_trait_leader } } }
+                HSR_create_character_playergirl3 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl4_01_trait_leader } } }
+                HSR_create_character_playergirl4 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl5_01_trait_leader } } }
+                HSR_create_character_playergirl5 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_qingque_01_trait_leader } } }
+                HSR_create_character_qingque = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_rappa_01_trait_leader } } }
+                HSR_create_character_rappa = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_robin_01_trait_leader } } }
+                HSR_create_character_robin = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_robinsummeretto_01_trait_leader } } }
+                HSR_create_character_robinsummeretto = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_ruanmei_01_trait_leader } } }
+                HSR_create_character_ruanmei = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_saber_01_trait_leader } } }
+                HSR_create_character_saber = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sam_01_trait_leader } } }
+                HSR_create_character_sam = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sampo_01_trait_leader } } }
+                HSR_create_character_sampo = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_seele_01_trait_leader } } }
+                HSR_create_character_seele = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_serval_01_trait_leader } } }
+                HSR_create_character_serval = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_silverwolf_01_trait_leader } } }
+                HSR_create_character_silverwolf = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_silverwolflv999_01_trait_leader } } }
+                HSR_create_character_silverwolflv999 = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sparkle_01_trait_leader } } }
+                HSR_create_character_sparkle = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sparxie_01_trait_leader } } }
+                HSR_create_character_sparxie = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sunday_01_trait_leader } } }
+                HSR_create_character_sunday = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sushang_01_trait_leader } } }
+                HSR_create_character_sushang = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_theherta_01_trait_leader } } }
+                HSR_create_character_theherta = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tingyun_01_trait_leader } } }
+                HSR_create_character_tingyun = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tohsakarin_01_trait_leader } } }
+                HSR_create_character_tohsakarin = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_topaz_01_trait_leader } } }
+                HSR_create_character_topaz = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tribbie_01_trait_leader } } }
+                HSR_create_character_tribbie = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_welt_01_trait_leader } } }
+                HSR_create_character_welt = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xueyi_01_trait_leader } } }
+                HSR_create_character_xueyi = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yanqing_01_trait_leader } } }
+                HSR_create_character_yanqing = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yaoguang_01_trait_leader } } }
+                HSR_create_character_yaoguang = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yukong_01_trait_leader } } }
+                HSR_create_character_yukong = yes
+            }
+            1 = {
+                trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yunli_01_trait_leader } } }
+                HSR_create_character_yunli = yes
+            }
+        }
+    }
+}
