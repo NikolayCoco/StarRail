@@ -1,25 +1,43 @@
 texticon = {
 	icon = StellarJade
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_StellarJade.dds"
+		texture = "gfx/interface/icons/international_organizations/HSR_StellarJade.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
 	}
 }
 texticon = {
-	icon = Welkin
+	icon = SupplyPass
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_Welkin.dds"
+		texture = "gfx/interface/icons/international_organizations/HSR_SupplyPass.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
 	}
 }
 texticon = {
-	icon = Warp
+	icon = OneiricShard
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_Warp.dds"
+		texture = "gfx/interface/icons/international_organizations/HSR_OneiricShard.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = SpecialPass
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/HSR_SpecialPass.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = Pass
+	iconsize = {
+		texture = "gfx/interface/icons/international_organizations/HSR_Pass.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -29,7 +47,7 @@ texticon = {
 texticon = {
 	icon = physical
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_physical.dds"
+		texture = "gfx/interface/icons/text/HSR_Physical.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -38,7 +56,7 @@ texticon = {
 texticon = {
 	icon = fire
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_fire.dds"
+		texture = "gfx/interface/icons/text/HSR_Fire.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -47,7 +65,7 @@ texticon = {
 texticon = {
 	icon = ice
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_ice.dds"
+		texture = "gfx/interface/icons/text/HSR_Ice.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -56,7 +74,7 @@ texticon = {
 texticon = {
 	icon = lightning
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_lightning.dds"
+		texture = "gfx/interface/icons/text/HSR_Lightning.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -65,7 +83,7 @@ texticon = {
 texticon = {
 	icon = wind
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_wind.dds"
+		texture = "gfx/interface/icons/text/HSR_Wind.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -74,7 +92,7 @@ texticon = {
 texticon = {
 	icon = quantum
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_quantum.dds"
+		texture = "gfx/interface/icons/text/HSR_Quantum.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -83,7 +101,7 @@ texticon = {
 texticon = {
 	icon = imaginary
 	iconsize = {
-		texture = "gfx/interface/icons/text/HSR_imaginary.dds"
+		texture = "gfx/interface/icons/text/HSR_Imaginary.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16
@@ -93,6 +111,168 @@ texticon = {
 	icon = AstralExpress
 	iconsize = {
 		texture = "gfx/interface/icons/text/HSR_AstralExpress.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = abundance
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Abundance.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = beauty
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Beauty.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = destruction
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Destruction.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = elation
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Elation.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = enigmata
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Enigmata.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = equilibrium
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Equilibrium.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = erudition
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Erudition.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = finality
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Finality.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = harmony
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Harmony.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = hunt
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Hunt.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = nihility
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Nihility.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = order
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Order.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = permanence
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Permanence.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = preservation
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Preservation.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = propagation
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Propagation.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = remembrance
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Remembrance.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = trailblaze
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Trailblaze.dds"
+		size = { 16 16 }
+		offset = { 0 2 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = voracity
+	iconsize = {
+		texture = "gfx/interface/icons/text/HSR_Voracity.dds"
 		size = { 16 16 }
 		offset = { 0 2 }
 		fontsize = 16

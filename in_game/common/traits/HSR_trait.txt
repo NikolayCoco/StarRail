@@ -49,4 +49,3 @@ HSR_imaginary_trait = { # 虚数
 	}
 }
 
-# 每名实装角色的身份特质（HSR_<code>_01_trait）见 HSR_operators_traits.txt（M2 生成）
