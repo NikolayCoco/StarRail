@@ -1,26 +1,20 @@
 # -*- coding: utf-8 -*-
 # HSR_2DFoil.py —— 二向箔（2DPortraitFramework / workshop 3599699279）星穹铁道绑定生成器
 # 照 RI_2DFoil.py 改：路径与前缀换成 HSR（角色 trait 键 = HSR_<code>_01_trait，与文件短名同构）。
-# 额外加了一段「源立绘 PNG -> 512x512 DXT5 dds」转换（裁透明 -> 等比缩放 -> 水平居中、向上对齐）。
+# 与 DvT_2DFoil.py 一致：本脚本只「从已生成的 dds 生成立绘绑定四件套」，不负责源图 -> dds 转换。
+# （源立绘已由用户单独留档/归档，mod 内只保留生成的 dds。）
 #
 # 用法（在 mod 根目录或任意处执行均可，脚本按自身位置定位 mod 根）：
-#   python in_game\HSR_2DFoil.py             # 转换缺失的 dds + 全量重新生成绑定四件套
-#   python in_game\HSR_2DFoil.py --rebuild   # 强制重转全部 dds
-#   python in_game\HSR_2DFoil.py --bind-only # 只重新生成绑定（dds 已就绪时）
+#   python in_game\HSR_2DFoil.py   # 扫描 in_game 下 *_diffuse.dds，重新生成绑定四件套
 #
-# 注意：生成的 .txt 一律 UTF-8 无 BOM（EU5 脚本文件带 BOM 会解析失败）。
+# 注意：生成的 .txt 一律 UTF-8 无 BOM（EU5 脚本文件带 BOM 会解析失败，与 DvT 的 utf_8_sig 不同）。
 import os
 
 MOD_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 本文件位于 in_game\ 下
 GFXMODPATH = os.path.join(MOD_ROOT, "in_game")
 MODPREFIX = "HSR"
+# 立绘/实体/模板键统一加前缀，确保与其它二次元 mod 同 playset 时不产生同名 accessory/entity/modifier 键。
 KEY_PREFIX = MODPREFIX + "_"   # HSR_
-
-# ---- 源立绘（不提交，见 美术资源_立绘）：<阵营>/<code>_01.png ----
-SRC_DIR = os.path.join(MOD_ROOT, "美术资源_立绘")
-CANVAS = 512            # 目标边长；DXT 族要求 4 的倍数
-ALPHA_THRESHOLD = 8     # 裁透明阈值
-EDGE_PAD = 2            # 内容四周额外保留像素
 
 PROPS_DIR = os.path.join(GFXMODPATH, "gfx", "models", "props", MODPREFIX)
 ACCESSORY_PATH = os.path.join(GFXMODPATH, "gfx", "portraits", "accessories", MODPREFIX + "_props.txt")
@@ -28,61 +22,6 @@ GENE_PATH = os.path.join(GFXMODPATH, "common", "genes", MODPREFIX + "_genes_spec
 GFXMODIFIER_PATH = os.path.join(GFXMODPATH, "gfx", "portraits", "portrait_modifiers", MODPREFIX + "_portrait.txt")
 ASSET_PATH = os.path.join(PROPS_DIR, "00_" + MODPREFIX + ".asset")
 ENCODING = "utf-8"      # 无 BOM
-
-
-# ---------------------------------------------------------------- 转换段
-def convert_one(src_png, out_dds, rebuild=False):
-    """裁透明 -> 等比缩放 -> 512 画布水平居中、向上对齐 -> DXT5 dds。"""
-    if (not rebuild) and os.path.exists(out_dds):
-        return "skip"
-    from PIL import Image
-    im = Image.open(src_png).convert("RGBA")
-    a = im.getchannel("A")
-    bb = a.point(lambda v: 255 if v > ALPHA_THRESHOLD else 0).getbbox()
-    if bb is None:
-        return "empty-alpha"
-    x0, y0, x1, y1 = bb
-    x0 = max(0, x0 - EDGE_PAD)
-    y0 = max(0, y0 - EDGE_PAD)
-    x1 = min(im.width, x1 + EDGE_PAD)
-    y1 = min(im.height, y1 + EDGE_PAD)
-    im = im.crop((x0, y0, x1, y1))
-    scale = min(CANVAS / im.width, CANVAS / im.height)
-    nw = max(1, round(im.width * scale))
-    nh = max(1, round(im.height * scale))
-    im = im.resize((nw, nh), Image.LANCZOS)
-    canvas = Image.new("RGBA", (CANVAS, CANVAS), (0, 0, 0, 0))
-    canvas.paste(im, ((CANVAS - nw) // 2, 0), im)  # 左右居中，向上对齐（贴顶）
-    canvas.save(out_dds, pixel_format="DXT5")
-    return "ok"
-
-
-def convert_all(rebuild=False):
-    n_ok = n_skip = n_err = 0
-    if not os.path.isdir(SRC_DIR):
-        print("[convert] 未找到源立绘目录：", SRC_DIR)
-        return 0
-    os.makedirs(PROPS_DIR, exist_ok=True)
-    for root, _dirs, files in os.walk(SRC_DIR):
-        for fn in sorted(files):
-            if not fn.endswith(".png"):
-                continue
-            code_01 = fn[:-4]  # <code>_01
-            out = os.path.join(PROPS_DIR, KEY_PREFIX + code_01 + "_diffuse.dds")
-            src = os.path.join(root, fn)
-            try:
-                st = convert_one(src, out, rebuild)
-            except Exception as e:
-                st = "err:" + str(e)
-            if st == "ok":
-                n_ok += 1
-            elif st == "skip":
-                n_skip += 1
-            else:
-                n_err += 1
-                print("[convert] FAIL", src, st)
-    print("[convert] ok=%d skip=%d err=%d" % (n_ok, n_skip, n_err))
-    return n_ok
 
 
 # ---------------------------------------------------------------- 绑定段（DvT 同款）
@@ -194,10 +133,4 @@ entity = {
 
 
 if __name__ == "__main__":
-    import sys
-    args = set(sys.argv[1:])
-    if "--bind-only" in args:
-        bind_all()
-    else:
-        convert_all(rebuild=("--rebuild" in args))
-        bind_all()
+    bind_all()
