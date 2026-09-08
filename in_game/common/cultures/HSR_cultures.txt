@@ -1,0 +1,305 @@
+# ======== 星穹铁道 文化（纯标签，无修正，对齐 DvT/RI）========
+amphoreus_death_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_earth_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_gate_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_genesis_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_law_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_ocean_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_reason_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_romance_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_sky_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_strife_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_time_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_trick_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+amphoreus_world_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { amphoreus_group }
+}
+astral_express_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { astral_express_group }
+}
+belobog_lower_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { belobog_group }
+}
+belobog_upper_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { belobog_group }
+}
+bloodhound_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { family_group }
+}
+fallen_ember_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { garden_of_recollection_group }
+}
+firefly_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { glamoth_group }
+}
+galaxy_ranger_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { galaxy_ranger_group }
+}
+garden_of_recollection_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { garden_of_recollection_group }
+}
+herta_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { genius_society_group }
+}
+intelligentsia_guild_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { ipc_group }
+}
+iris_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { family_group }
+}
+knights_of_beauty_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { knights_of_beauty_group }
+}
+luofu_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { xianzhou_group }
+}
+lushaka_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { lushaka_group }
+}
+masked_fools_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { masked_fools_group tavern_group }
+}
+new_babylon_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { new_babylon_group }
+}
+oak_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { family_group }
+}
+planarcadia_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { planarcadia_group }
+}
+punklorde_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { punklorde_group }
+}
+ruanmei_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { genius_society_group }
+}
+self_annihilator_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { self_annihilator_group }
+}
+ten_stonehearts_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { ipc_group }
+}
+yaoqing_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { xianzhou_group }
+}
+yuque_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { xianzhou_group }
+}
+zhuming_culture = {
+	language = common_language
+	color = HSR_main_color
+	tags = { astral_gfx european_gfx }
+	opinions = {
+	}
+	culture_groups = { xianzhou_group }
+}

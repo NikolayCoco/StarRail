@@ -3,7 +3,7 @@
 HSR_create_character = {
 	create_character = {
         first_name = $nameF$
-        last_name = $nameL$
+        last_name = $dynasty$
         religion = religion:$religion$
         culture = culture:$culture_key$
         age = $age$
@@ -31,18 +31,15 @@ HSR_create_character = {
         add_trait = trait:HSR_$code$_01_trait
         add_trait = trait:HSR_$code$_01_trait_leader
         add_trait = trait:HSR_$element$_trait
-        if = {
-            limit = { NOT = { $belong$ = none } }
-            add_trait = trait:HSR_belong_$belong$_trait
-        }
+        add_trait = trait:HSR_$path$_trait
         if = {
             limit = { has_dynasty = no }
             if = {
-                limit = { exists = dynasty:$nameL$ }
-                change_dynasty = dynasty:$nameL$
+                limit = { exists = dynasty:$dynasty$ }
+                change_dynasty = dynasty:$dynasty$
             }
             else = {
-                found_dynasty = $nameL$
+                found_dynasty = $dynasty$
             }
         }
         save_scope_as = target_character

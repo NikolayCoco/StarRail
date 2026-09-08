@@ -13,8 +13,6 @@
  desc_HSR_quantum_trait: "A Quantum-attribute character."
  HSR_imaginary_trait: "Imaginary"
  desc_HSR_imaginary_trait: "An Imaginary-attribute character."
- HSR_belong_AstralExpress_trait: "Astral Express"
- desc_HSR_belong_AstralExpress_trait: "A character from the Astral Express."
  # Path religions
  Erudition_Worship: "Erudition"
  Nihility_Worship: "Nihility"

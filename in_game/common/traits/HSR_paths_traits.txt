@@ -1,0 +1,78 @@
+# ======== 命途特质（玩法命途，category = ruler）========
+HSR_abundance_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		global_monthly_development = 0.1
+		trade_efficiency = 0.05
+
+	}
+}
+HSR_destruction_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		army_infantry_power = 0.1
+		morale_damage_done = 0.05
+
+	}
+}
+HSR_elation_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		land_morale_modifier = 0.05
+		army_maintenance_cost = -0.05
+
+	}
+}
+HSR_erudition_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		research_speed_modifier = 0.1
+
+	}
+}
+HSR_harmony_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		diplomatic_reputation = 1
+
+	}
+}
+HSR_hunt_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		army_cavalry_power = 0.1
+		army_movement_speed = 0.05
+
+	}
+}
+HSR_nihility_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		spy_network_construction = 1
+
+	}
+}
+HSR_preservation_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		global_defensive = 0.1
+
+	}
+}
+HSR_remembrance_trait = {
+	category = ruler
+	allow = { HSR_trailblazer_trigger = yes }
+	modifier = {
+		character_life_expectancy = 5
+		monthly_legitimacy = 0.1
+
+	}
+}

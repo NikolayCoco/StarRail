@@ -1,2 +1,20 @@
-# 星穹（Astral）
-astral_group = { }
+# avoid naming the same as Cultures and Languages
+
+amphoreus_group = { }
+astral_express_group = { }
+belobog_group = { }
+family_group = { }
+galaxy_ranger_group = { }
+garden_of_recollection_group = { }
+genius_society_group = { }
+glamoth_group = { }
+ipc_group = { }
+knights_of_beauty_group = { }
+lushaka_group = { }
+masked_fools_group = { }
+new_babylon_group = { }
+planarcadia_group = { }
+punklorde_group = { }
+self_annihilator_group = { }
+tavern_group = { }
+xianzhou_group = { }

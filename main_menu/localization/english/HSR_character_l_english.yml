@@ -33,4 +33,3 @@
  HSR_character_events.1.desc_immortal: "$HSR_character_events.1.desc$\n\n#italic [target_character.GetName] has weathered long years and possesses a long life.#!"
  HSR_character_events.1.desc_child: "$HSR_character_events.1.desc$\n\n#italic [target_character.GetName] is still a child and will formally take part in affairs after age 16.#!"
  HSR_character_events.1.a: "Welcome aboard the Astral Express"
- nameL_AstralExpress: "Astral Express"

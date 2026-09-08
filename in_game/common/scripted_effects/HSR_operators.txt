@@ -1,869 +1,45 @@
-HSR_create_character_aventurinewaveflair = {
+# HSR_operators.txt —— 星穹铁道角色表（命途/宗教/文化/性别 重构，M2 生成）
+HSR_create_character_acheron = {
 	HSR_create_character = {
-		code = aventurinewaveflair
-		religion = Elation_Worship
-		culture_key = astral_culture
-		nameF = nameF_aventurinewaveflair
-		nameL = nameL_IPC
-		age = 20
-		immortal = no
-		element = quantum
-		belong = IPC
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_robinsummeretto = {
-	HSR_create_character = {
-		code = robinsummeretto
-		religion = Remembrance_Worship
-		culture_key = astral_culture
-		nameF = nameF_robinsummeretto
-		nameL = nameL_Penacony
-		age = 20
-		immortal = no
-		element = wind
-		belong = Penacony
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_himekonova = {
-	HSR_create_character = {
-		code = himekonova
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_himekonova
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = fire
-		belong = AstralExpress
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_gilgamesh = {
-	HSR_create_character = {
-		code = gilgamesh
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_gilgamesh
-		nameL = nameL_OtherWorld
+		code = acheron
+		path = nihility
+		religion = Nihility_Worship
+		culture_key = self_annihilator_culture
+		nameF = nameF_acheron
+		dynasty = HSR_dynasty_GalaxyRanger
 		age = 20
 		immortal = no
 		element = lightning
-		belong = OtherWorld
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_tohsakarin = {
-	HSR_create_character = {
-		code = tohsakarin
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_tohsakarin
-		nameL = nameL_OtherWorld
-		age = 20
-		immortal = no
-		element = quantum
-		belong = OtherWorld
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_mortenaxblade = {
-	HSR_create_character = {
-		code = mortenaxblade
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_mortenaxblade
-		nameL = nameL_StellaronHunter
-		age = 20
-		immortal = no
-		element = fire
-		belong = StellaronHunter
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_silverwolflv999 = {
-	HSR_create_character = {
-		code = silverwolflv999
-		religion = Elation_Worship
-		culture_key = astral_culture
-		nameF = nameF_silverwolflv999
-		nameL = nameL_StellaronHunter
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = StellaronHunter
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_evanescia = {
-	HSR_create_character = {
-		code = evanescia
-		religion = Elation_Worship
-		culture_key = astral_culture
-		nameF = nameF_evanescia
-		nameL = nameL_DualityPark
-		age = 20
-		immortal = no
-		element = physical
-		belong = DualityPark
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_ashveil = {
-	HSR_create_character = {
-		code = ashveil
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_ashveil
-		nameL = nameL_DualityPark
-		age = 20
-		immortal = no
-		element = lightning
-		belong = DualityPark
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_yaoguang = {
-	HSR_create_character = {
-		code = yaoguang
-		religion = Elation_Worship
-		culture_key = astral_culture
-		nameF = nameF_yaoguang
-		nameL = nameL_XianzhouYuque
-		age = 20
-		immortal = no
-		element = physical
-		belong = XianzhouYuque
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_sparxie = {
-	HSR_create_character = {
-		code = sparxie
-		religion = Elation_Worship
-		culture_key = astral_culture
-		nameF = nameF_sparxie
-		nameL = nameL_MaskedFools
-		age = 20
-		immortal = no
-		element = fire
-		belong = MaskedFools
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_cyrene = {
-	HSR_create_character = {
-		code = cyrene
-		religion = Remembrance_Worship
-		culture_key = astral_culture
-		nameF = nameF_cyrene
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = ice
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_danhengpt = {
-	HSR_create_character = {
-		code = danhengpt
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_danhengpt
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = physical
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_evernight = {
-	HSR_create_character = {
-		code = evernight
-		religion = Remembrance_Worship
-		culture_key = astral_culture
-		nameF = nameF_evernight
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = ice
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_cerydra = {
-	HSR_create_character = {
-		code = cerydra
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_cerydra
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = wind
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_hysilens = {
-	HSR_create_character = {
-		code = hysilens
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_hysilens
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = physical
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_hyacine = {
-	HSR_create_character = {
-		code = hyacine
-		religion = Remembrance_Worship
-		culture_key = astral_culture
-		nameF = nameF_hyacine
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = wind
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_phainon = {
-	HSR_create_character = {
-		code = phainon
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_phainon
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = physical
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_castorice = {
-	HSR_create_character = {
-		code = castorice
-		religion = Remembrance_Worship
-		culture_key = astral_culture
-		nameF = nameF_castorice
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = quantum
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_cipher = {
-	HSR_create_character = {
-		code = cipher
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_cipher
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = quantum
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_anaxa = {
-	HSR_create_character = {
-		code = anaxa
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_anaxa
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = wind
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_mydei = {
-	HSR_create_character = {
-		code = mydei
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_mydei
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = Amphoreus
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_tribbie = {
-	HSR_create_character = {
-		code = tribbie
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_tribbie
-		nameL = nameL_Amphoreus
-		age = 20
-		immortal = no
-		element = quantum
-		belong = Amphoreus
-		female_bool = no
+		female_bool = yes
 		ability_level = 95
 	}
 }
 HSR_create_character_aglaea = {
 	HSR_create_character = {
 		code = aglaea
-		religion = Remembrance_Worship
-		culture_key = astral_culture
+		path = remembrance
+		religion = Beauty_Worship
+		culture_key = amphoreus_romance_culture
 		nameF = nameF_aglaea
-		nameL = nameL_Amphoreus
+		dynasty = HSR_dynasty_Amphoreus
 		age = 20
 		immortal = no
 		element = lightning
-		belong = Amphoreus
-		female_bool = no
+		female_bool = yes
 		ability_level = 95
 	}
 }
-HSR_create_character_theherta = {
+HSR_create_character_anaxa = {
 	HSR_create_character = {
-		code = theherta
+		code = anaxa
+		path = erudition
 		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_theherta
-		nameL = nameL_HertaSpaceStation
-		age = 20
-		immortal = no
-		element = ice
-		belong = HertaSpaceStation
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_dahlia = {
-	HSR_create_character = {
-		code = dahlia
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_dahlia
-		nameL = nameL_FallenEmber
-		age = 20
-		immortal = no
-		element = fire
-		belong = FallenEmber
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_rappa = {
-	HSR_create_character = {
-		code = rappa
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_rappa
-		nameL = nameL_GalaxyRanger
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = GalaxyRanger
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_boothill = {
-	HSR_create_character = {
-		code = boothill
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_boothill
-		nameL = nameL_GalaxyRanger
-		age = 20
-		immortal = no
-		element = physical
-		belong = GalaxyRanger
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_jade = {
-	HSR_create_character = {
-		code = jade
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_jade
-		nameL = nameL_IPC
-		age = 20
-		immortal = no
-		element = quantum
-		belong = IPC
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_sunday = {
-	HSR_create_character = {
-		code = sunday
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_sunday
-		nameL = nameL_Penacony
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = Penacony
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_sam = {
-	HSR_create_character = {
-		code = sam
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_sam
-		nameL = nameL_StellaronHunter
-		age = 20
-		immortal = no
-		element = fire
-		belong = StellaronHunter
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_robin = {
-	HSR_create_character = {
-		code = robin
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_robin
-		nameL = nameL_Penacony
-		age = 20
-		immortal = no
-		element = physical
-		belong = Penacony
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_acheron = {
-	HSR_create_character = {
-		code = acheron
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_acheron
-		nameL = nameL_GalaxyRanger
-		age = 20
-		immortal = no
-		element = lightning
-		belong = GalaxyRanger
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_blackswan = {
-	HSR_create_character = {
-		code = blackswan
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_blackswan
-		nameL = nameL_GardenOfRecollection
+		culture_key = amphoreus_reason_culture
+		nameF = nameF_anaxa
+		dynasty = HSR_dynasty_Amphoreus
 		age = 20
 		immortal = no
 		element = wind
-		belong = GardenOfRecollection
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_sparkle = {
-	HSR_create_character = {
-		code = sparkle
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_sparkle
-		nameL = nameL_MaskedFools
-		age = 20
-		immortal = no
-		element = quantum
-		belong = MaskedFools
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_drratio = {
-	HSR_create_character = {
-		code = drratio
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_drratio
-		nameL = nameL_IntelligentsiaGuild
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = IntelligentsiaGuild
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_aventurine = {
-	HSR_create_character = {
-		code = aventurine
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_aventurine
-		nameL = nameL_IPC
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = IPC
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_ruanmei = {
-	HSR_create_character = {
-		code = ruanmei
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_ruanmei
-		nameL = nameL_HertaSpaceStation
-		age = 20
-		immortal = no
-		element = ice
-		belong = HertaSpaceStation
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_argenti = {
-	HSR_create_character = {
-		code = argenti
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_argenti
-		nameL = nameL_KnightsOfBeauty
-		age = 20
-		immortal = no
-		element = physical
-		belong = KnightsOfBeauty
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_fugue = {
-	HSR_create_character = {
-		code = fugue
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_fugue
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = fire
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_lingsha = {
-	HSR_create_character = {
-		code = lingsha
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_lingsha
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = fire
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_yunli = {
-	HSR_create_character = {
-		code = yunli
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_yunli
-		nameL = nameL_XianzhouZhuming
-		age = 20
-		immortal = no
-		element = physical
-		belong = XianzhouZhuming
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_feixiao = {
-	HSR_create_character = {
-		code = feixiao
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_feixiao
-		nameL = nameL_XianzhouYaoqing
-		age = 20
-		immortal = no
-		element = wind
-		belong = XianzhouYaoqing
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_jiaoqiu = {
-	HSR_create_character = {
-		code = jiaoqiu
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_jiaoqiu
-		nameL = nameL_XianzhouYaoqing
-		age = 20
-		immortal = no
-		element = fire
-		belong = XianzhouYaoqing
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_huohuo = {
-	HSR_create_character = {
-		code = huohuo
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_huohuo
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = wind
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_danhengil = {
-	HSR_create_character = {
-		code = danhengil
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_danhengil
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_jingliu = {
-	HSR_create_character = {
-		code = jingliu
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_jingliu
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = ice
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_bailu = {
-	HSR_create_character = {
-		code = bailu
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_bailu
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = lightning
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_yanqing = {
-	HSR_create_character = {
-		code = yanqing
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_yanqing
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = ice
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_fuxuan = {
-	HSR_create_character = {
-		code = fuxuan
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_fuxuan
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = quantum
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_blade = {
-	HSR_create_character = {
-		code = blade
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_blade
-		nameL = nameL_StellaronHunter
-		age = 20
-		immortal = no
-		element = wind
-		belong = StellaronHunter
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_jingyuan = {
-	HSR_create_character = {
-		code = jingyuan
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_jingyuan
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = lightning
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_luocha = {
-	HSR_create_character = {
-		code = luocha
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_luocha
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_topaz = {
-	HSR_create_character = {
-		code = topaz
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_topaz
-		nameL = nameL_IPC
-		age = 20
-		immortal = no
-		element = fire
-		belong = IPC
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_clara = {
-	HSR_create_character = {
-		code = clara
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_clara
-		nameL = nameL_Belobog
-		age = 20
-		immortal = no
-		element = physical
-		belong = Belobog
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_gepard = {
-	HSR_create_character = {
-		code = gepard
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_gepard
-		nameL = nameL_Belobog
-		age = 20
-		immortal = no
-		element = ice
-		belong = Belobog
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_seele = {
-	HSR_create_character = {
-		code = seele
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_seele
-		nameL = nameL_Belobog
-		age = 20
-		immortal = no
-		element = quantum
-		belong = Belobog
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_bronya = {
-	HSR_create_character = {
-		code = bronya
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_bronya
-		nameL = nameL_Belobog
-		age = 20
-		immortal = no
-		element = wind
-		belong = Belobog
 		female_bool = no
 		ability_level = 95
 	}
@@ -871,44 +47,644 @@ HSR_create_character_bronya = {
 HSR_create_character_archer = {
 	HSR_create_character = {
 		code = archer
-		religion = Hunt_Worship
-		culture_key = astral_culture
+		path = hunt
+		religion = shinto
+		culture_key = saigoku_culture
 		nameF = nameF_archer
-		nameL = nameL_OtherWorld
+		dynasty = HSR_dynasty_OtherWorld
 		age = 20
-		immortal = no
+		immortal = yes
 		element = quantum
-		belong = OtherWorld
 		female_bool = no
 		ability_level = 95
 	}
 }
-HSR_create_character_saber = {
+HSR_create_character_argenti = {
 	HSR_create_character = {
-		code = saber
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_saber
-		nameL = nameL_OtherWorld
+		code = argenti
+		path = erudition
+		religion = Beauty_Worship
+		culture_key = knights_of_beauty_culture
+		nameF = nameF_argenti
+		dynasty = HSR_dynasty_KnightsOfBeauty
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_arlan = {
+	HSR_create_character = {
+		code = arlan
+		path = destruction
+		religion = Erudition_Worship
+		culture_key = herta_culture
+		nameF = nameF_arlan
+		dynasty = HSR_dynasty_HertaSpaceStation
+		age = 20
+		immortal = no
+		element = lightning
+		female_bool = no
+		ability_level = 85
+	}
+}
+HSR_create_character_ashveil = {
+	HSR_create_character = {
+		code = ashveil
+		path = hunt
+		religion = Hunt_Worship
+		culture_key = galaxy_ranger_culture
+		nameF = nameF_ashveil
+		dynasty = HSR_dynasty_DualityPark
+		age = 20
+		immortal = no
+		element = lightning
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_asta = {
+	HSR_create_character = {
+		code = asta
+		path = harmony
+		religion = Erudition_Worship
+		culture_key = herta_culture
+		nameF = nameF_asta
+		dynasty = HSR_dynasty_HertaSpaceStation
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_aventurine = {
+	HSR_create_character = {
+		code = aventurine
+		path = preservation
+		religion = Preservation_Worship
+		culture_key = ten_stonehearts_culture
+		nameF = nameF_aventurine
+		dynasty = HSR_dynasty_IPC
+		age = 20
+		immortal = no
+		element = imaginary
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_aventurinewaveflair = {
+	HSR_create_character = {
+		code = aventurinewaveflair
+		path = elation
+		religion = Preservation_Worship
+		culture_key = ten_stonehearts_culture
+		nameF = nameF_aventurinewaveflair
+		dynasty = HSR_dynasty_IPC
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_bailu = {
+	HSR_create_character = {
+		code = bailu
+		path = abundance
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_bailu
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = lightning
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_blackswan = {
+	HSR_create_character = {
+		code = blackswan
+		path = nihility
+		religion = Remembrance_Worship
+		culture_key = garden_of_recollection_culture
+		nameF = nameF_blackswan
+		dynasty = HSR_dynasty_GardenOfRecollection
 		age = 20
 		immortal = no
 		element = wind
-		belong = OtherWorld
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_blade = {
+	HSR_create_character = {
+		code = blade
+		path = destruction
+		religion = Finality_Worship
+		culture_key = zhuming_culture
+		nameF = nameF_blade
+		dynasty = HSR_dynasty_StellaronHunter
+		age = 20
+		immortal = yes
+		element = wind
 		female_bool = no
 		ability_level = 95
 	}
 }
-HSR_create_character_silverwolf = {
+HSR_create_character_boothill = {
 	HSR_create_character = {
-		code = silverwolf
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_silverwolf
-		nameL = nameL_StellaronHunter
+		code = boothill
+		path = hunt
+		religion = Hunt_Worship
+		culture_key = galaxy_ranger_culture
+		nameF = nameF_boothill
+		dynasty = HSR_dynasty_GalaxyRanger
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_bronya = {
+	HSR_create_character = {
+		code = bronya
+		path = harmony
+		religion = Preservation_Worship
+		culture_key = belobog_upper_culture
+		nameF = nameF_bronya
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = wind
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_castorice = {
+	HSR_create_character = {
+		code = castorice
+		path = remembrance
+		religion = Equilibrium_Worship
+		culture_key = amphoreus_death_culture
+		nameF = nameF_castorice
+		dynasty = HSR_dynasty_Amphoreus
 		age = 20
 		immortal = no
 		element = quantum
-		belong = StellaronHunter
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_cerydra = {
+	HSR_create_character = {
+		code = cerydra
+		path = harmony
+		religion = Order_Worship
+		culture_key = amphoreus_law_culture
+		nameF = nameF_cerydra
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = wind
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_cipher = {
+	HSR_create_character = {
+		code = cipher
+		path = nihility
+		religion = Elation_Worship
+		culture_key = amphoreus_trick_culture
+		nameF = nameF_cipher
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_clara = {
+	HSR_create_character = {
+		code = clara
+		path = destruction
+		religion = Preservation_Worship
+		culture_key = belobog_lower_culture
+		nameF = nameF_clara
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_cyrene = {
+	HSR_create_character = {
+		code = cyrene
+		path = remembrance
+		religion = Remembrance_Worship
+		culture_key = amphoreus_genesis_culture
+		nameF = nameF_cyrene
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_dahlia = {
+	HSR_create_character = {
+		code = dahlia
+		path = nihility
+		religion = Remembrance_Worship
+		culture_key = fallen_ember_culture
+		nameF = nameF_dahlia
+		dynasty = HSR_dynasty_FallenEmber
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_danheng = {
+	HSR_create_character = {
+		code = danheng
+		path = hunt
+		religion = Trailblaze_Worship
+		culture_key = luofu_culture
+		nameF = nameF_danheng
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = yes
+		element = wind
+		female_bool = no
+		ability_level = 85
+	}
+}
+HSR_create_character_danhengil = {
+	HSR_create_character = {
+		code = danhengil
+		path = destruction
+		religion = Permanence_Worship
+		culture_key = luofu_culture
+		nameF = nameF_danhengil
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = imaginary
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_danhengpt = {
+	HSR_create_character = {
+		code = danhengpt
+		path = preservation
+		religion = Permanence_Worship
+		culture_key = amphoreus_earth_culture
+		nameF = nameF_danhengpt
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = yes
+		element = physical
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_drratio = {
+	HSR_create_character = {
+		code = drratio
+		path = hunt
+		religion = Erudition_Worship
+		culture_key = intelligentsia_guild_culture
+		nameF = nameF_drratio
+		dynasty = HSR_dynasty_IntelligentsiaGuild
+		age = 20
+		immortal = no
+		element = imaginary
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_evanescia = {
+	HSR_create_character = {
+		code = evanescia
+		path = elation
+		religion = Elation_Worship
+		culture_key = planarcadia_culture
+		nameF = nameF_evanescia
+		dynasty = HSR_dynasty_DualityPark
+		age = 20
+		immortal = yes
+		element = physical
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_evernight = {
+	HSR_create_character = {
+		code = evernight
+		path = remembrance
+		religion = Enigmata_Worship
+		culture_key = amphoreus_time_culture
+		nameF = nameF_evernight
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_feixiao = {
+	HSR_create_character = {
+		code = feixiao
+		path = hunt
+		religion = Hunt_Worship
+		culture_key = yaoqing_culture
+		nameF = nameF_feixiao
+		dynasty = HSR_dynasty_XianzhouYaoqing
+		age = 20
+		immortal = yes
+		element = wind
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_fugue = {
+	HSR_create_character = {
+		code = fugue
+		path = nihility
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_fugue
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_fuxuan = {
+	HSR_create_character = {
+		code = fuxuan
+		path = preservation
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_fuxuan
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = quantum
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_gallagher = {
+	HSR_create_character = {
+		code = gallagher
+		path = abundance
+		religion = Enigmata_Worship
+		culture_key = bloodhound_culture
+		nameF = nameF_gallagher
+		dynasty = HSR_dynasty_Penacony
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = no
+		ability_level = 85
+	}
+}
+HSR_create_character_gepard = {
+	HSR_create_character = {
+		code = gepard
+		path = preservation
+		religion = Preservation_Worship
+		culture_key = belobog_upper_culture
+		nameF = nameF_gepard
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_gilgamesh = {
+	HSR_create_character = {
+		code = gilgamesh
+		path = destruction
+		religion = zoroastrian
+		culture_key = iraqi_culture
+		nameF = nameF_gilgamesh
+		dynasty = HSR_dynasty_OtherWorld
+		age = 20
+		immortal = yes
+		element = lightning
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_guinaifen = {
+	HSR_create_character = {
+		code = guinaifen
+		path = nihility
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_guinaifen
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = fire
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_hanya = {
+	HSR_create_character = {
+		code = hanya
+		path = harmony
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_hanya
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = physical
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_herta = {
+	HSR_create_character = {
+		code = herta
+		path = erudition
+		religion = Erudition_Worship
+		culture_key = herta_culture
+		nameF = nameF_herta
+		dynasty = HSR_dynasty_HertaSpaceStation
+		age = 20
+		immortal = yes
+		element = ice
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_himeko = {
+	HSR_create_character = {
+		code = himeko
+		path = erudition
+		religion = Trailblaze_Worship
+		culture_key = planarcadia_culture
+		nameF = nameF_himeko
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_himekonova = {
+	HSR_create_character = {
+		code = himekonova
+		path = erudition
+		religion = Trailblaze_Worship
+		culture_key = planarcadia_culture
+		nameF = nameF_himekonova
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_hook = {
+	HSR_create_character = {
+		code = hook
+		path = destruction
+		religion = Preservation_Worship
+		culture_key = belobog_lower_culture
+		nameF = nameF_hook
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_huohuo = {
+	HSR_create_character = {
+		code = huohuo
+		path = abundance
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_huohuo
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = wind
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_hyacine = {
+	HSR_create_character = {
+		code = hyacine
+		path = remembrance
+		religion = Preservation_Worship
+		culture_key = amphoreus_sky_culture
+		nameF = nameF_hyacine
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = wind
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_hysilens = {
+	HSR_create_character = {
+		code = hysilens
+		path = nihility
+		religion = Nihility_Worship
+		culture_key = amphoreus_ocean_culture
+		nameF = nameF_hysilens
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jade = {
+	HSR_create_character = {
+		code = jade
+		path = erudition
+		religion = Preservation_Worship
+		culture_key = ten_stonehearts_culture
+		nameF = nameF_jade
+		dynasty = HSR_dynasty_IPC
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jiaoqiu = {
+	HSR_create_character = {
+		code = jiaoqiu
+		path = nihility
+		religion = Hunt_Worship
+		culture_key = yaoqing_culture
+		nameF = nameF_jiaoqiu
+		dynasty = HSR_dynasty_XianzhouYaoqing
+		age = 20
+		immortal = yes
+		element = fire
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_jingliu = {
+	HSR_create_character = {
+		code = jingliu
+		path = destruction
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_jingliu
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = ice
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_jingyuan = {
+	HSR_create_character = {
+		code = jingyuan
+		path = erudition
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_jingyuan
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = lightning
 		female_bool = no
 		ability_level = 95
 	}
@@ -916,44 +692,209 @@ HSR_create_character_silverwolf = {
 HSR_create_character_kafka = {
 	HSR_create_character = {
 		code = kafka
-		religion = Nihility_Worship
-		culture_key = astral_culture
+		path = nihility
+		religion = Finality_Worship
+		culture_key = new_babylon_culture
 		nameF = nameF_kafka
-		nameL = nameL_StellaronHunter
+		dynasty = HSR_dynasty_StellaronHunter
 		age = 20
 		immortal = no
 		element = lightning
-		belong = StellaronHunter
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_lingsha = {
+	HSR_create_character = {
+		code = lingsha
+		path = abundance
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_lingsha
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_luka = {
+	HSR_create_character = {
+		code = luka
+		path = nihility
+		religion = Preservation_Worship
+		culture_key = belobog_lower_culture
+		nameF = nameF_luka
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = no
+		ability_level = 85
+	}
+}
+HSR_create_character_luocha = {
+	HSR_create_character = {
+		code = luocha
+		path = abundance
+		religion = Abundance_Worship
+		culture_key = luofu_culture
+		nameF = nameF_luocha
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = imaginary
 		female_bool = no
 		ability_level = 95
 	}
 }
-HSR_create_character_welt = {
+HSR_create_character_lynx = {
 	HSR_create_character = {
-		code = welt
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_welt
-		nameL = nameL_AstralExpress
+		code = lynx
+		path = abundance
+		religion = Preservation_Worship
+		culture_key = belobog_upper_culture
+		nameF = nameF_lynx
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_mar7th = {
+	HSR_create_character = {
+		code = mar7th
+		path = preservation
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
+		nameF = nameF_mar7th
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_mar7th2 = {
+	HSR_create_character = {
+		code = mar7th2
+		path = hunt
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
+		nameF = nameF_mar7th2
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = imaginary
-		belong = AstralExpress
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_misha = {
+	HSR_create_character = {
+		code = misha
+		path = destruction
+		religion = Trailblaze_Worship
+		culture_key = lushaka_culture
+		nameF = nameF_misha
+		dynasty = HSR_dynasty_Penacony
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = no
+		ability_level = 85
+	}
+}
+HSR_create_character_mortenaxblade = {
+	HSR_create_character = {
+		code = mortenaxblade
+		path = nihility
+		religion = Finality_Worship
+		culture_key = zhuming_culture
+		nameF = nameF_mortenaxblade
+		dynasty = HSR_dynasty_StellaronHunter
+		age = 20
+		immortal = yes
+		element = fire
 		female_bool = no
 		ability_level = 95
 	}
 }
-HSR_create_character_himeko = {
+HSR_create_character_moze = {
 	HSR_create_character = {
-		code = himeko
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_himeko
-		nameL = nameL_AstralExpress
+		code = moze
+		path = hunt
+		religion = Hunt_Worship
+		culture_key = yaoqing_culture
+		nameF = nameF_moze
+		dynasty = HSR_dynasty_XianzhouYaoqing
+		age = 20
+		immortal = yes
+		element = lightning
+		female_bool = no
+		ability_level = 85
+	}
+}
+HSR_create_character_mydei = {
+	HSR_create_character = {
+		code = mydei
+		path = destruction
+		religion = Hunt_Worship
+		culture_key = amphoreus_strife_culture
+		nameF = nameF_mydei
+		dynasty = HSR_dynasty_Amphoreus
 		age = 20
 		immortal = no
-		element = fire
-		belong = AstralExpress
+		element = imaginary
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_natasha = {
+	HSR_create_character = {
+		code = natasha
+		path = abundance
+		religion = Preservation_Worship
+		culture_key = belobog_lower_culture
+		nameF = nameF_natasha
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_pela = {
+	HSR_create_character = {
+		code = pela
+		path = nihility
+		religion = Preservation_Worship
+		culture_key = belobog_upper_culture
+		nameF = nameF_pela
+		dynasty = HSR_dynasty_Belobog
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_phainon = {
+	HSR_create_character = {
+		code = phainon
+		path = destruction
+		religion = Destruction_Worship
+		culture_key = amphoreus_world_culture
+		nameF = nameF_phainon
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = physical
 		female_bool = no
 		ability_level = 95
 	}
@@ -961,29 +902,14 @@ HSR_create_character_himeko = {
 HSR_create_character_playerboy = {
 	HSR_create_character = {
 		code = playerboy
-		religion = Destruction_Worship
-		culture_key = astral_culture
+		path = destruction
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
 		nameF = nameF_playerboy
-		nameL = nameL_AstralExpress
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = physical
-		belong = AstralExpress
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_playergirl = {
-	HSR_create_character = {
-		code = playergirl
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_playergirl
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = physical
-		belong = AstralExpress
 		female_bool = no
 		ability_level = 95
 	}
@@ -991,29 +917,14 @@ HSR_create_character_playergirl = {
 HSR_create_character_playerboy2 = {
 	HSR_create_character = {
 		code = playerboy2
-		religion = Preservation_Worship
-		culture_key = astral_culture
+		path = preservation
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
 		nameF = nameF_playerboy2
-		nameL = nameL_AstralExpress
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = fire
-		belong = AstralExpress
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_playergirl2 = {
-	HSR_create_character = {
-		code = playergirl2
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_playergirl2
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = fire
-		belong = AstralExpress
 		female_bool = no
 		ability_level = 95
 	}
@@ -1021,29 +932,14 @@ HSR_create_character_playergirl2 = {
 HSR_create_character_playerboy3 = {
 	HSR_create_character = {
 		code = playerboy3
-		religion = Harmony_Worship
-		culture_key = astral_culture
+		path = harmony
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
 		nameF = nameF_playerboy3
-		nameL = nameL_AstralExpress
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = imaginary
-		belong = AstralExpress
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_playergirl3 = {
-	HSR_create_character = {
-		code = playergirl3
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_playergirl3
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = AstralExpress
 		female_bool = no
 		ability_level = 95
 	}
@@ -1051,29 +947,14 @@ HSR_create_character_playergirl3 = {
 HSR_create_character_playerboy4 = {
 	HSR_create_character = {
 		code = playerboy4
-		religion = Remembrance_Worship
-		culture_key = astral_culture
+		path = remembrance
+		religion = Trailblaze_Worship
+		culture_key = amphoreus_time_culture
 		nameF = nameF_playerboy4
-		nameL = nameL_AstralExpress
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = ice
-		belong = AstralExpress
-		female_bool = no
-		ability_level = 95
-	}
-}
-HSR_create_character_playergirl4 = {
-	HSR_create_character = {
-		code = playergirl4
-		religion = Remembrance_Worship
-		culture_key = astral_culture
-		nameF = nameF_playergirl4
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = ice
-		belong = AstralExpress
 		female_bool = no
 		ability_level = 95
 	}
@@ -1081,773 +962,495 @@ HSR_create_character_playergirl4 = {
 HSR_create_character_playerboy5 = {
 	HSR_create_character = {
 		code = playerboy5
-		religion = Elation_Worship
-		culture_key = astral_culture
+		path = elation
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
 		nameF = nameF_playerboy5
-		nameL = nameL_AstralExpress
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = lightning
-		belong = AstralExpress
 		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_playergirl = {
+	HSR_create_character = {
+		code = playergirl
+		path = destruction
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
+		nameF = nameF_playerboy
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = physical
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_playergirl2 = {
+	HSR_create_character = {
+		code = playergirl2
+		path = preservation
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
+		nameF = nameF_playerboy2
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_playergirl3 = {
+	HSR_create_character = {
+		code = playergirl3
+		path = harmony
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
+		nameF = nameF_playerboy3
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_playergirl4 = {
+	HSR_create_character = {
+		code = playergirl4
+		path = remembrance
+		religion = Trailblaze_Worship
+		culture_key = amphoreus_time_culture
+		nameF = nameF_playerboy4
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = yes
 		ability_level = 95
 	}
 }
 HSR_create_character_playergirl5 = {
 	HSR_create_character = {
 		code = playergirl5
-		religion = Elation_Worship
-		culture_key = astral_culture
-		nameF = nameF_playergirl5
-		nameL = nameL_AstralExpress
+		path = elation
+		religion = Trailblaze_Worship
+		culture_key = astral_express_culture
+		nameF = nameF_playerboy5
+		dynasty = HSR_dynasty_AstralExpress
 		age = 20
 		immortal = no
 		element = lightning
-		belong = AstralExpress
-		female_bool = no
+		female_bool = yes
 		ability_level = 95
-	}
-}
-HSR_create_character_misha = {
-	HSR_create_character = {
-		code = misha
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_misha
-		nameL = nameL_Penacony
-		age = 20
-		immortal = no
-		element = ice
-		belong = Penacony
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_gallagher = {
-	HSR_create_character = {
-		code = gallagher
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_gallagher
-		nameL = nameL_Penacony
-		age = 20
-		immortal = no
-		element = fire
-		belong = Penacony
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_mar7th2 = {
-	HSR_create_character = {
-		code = mar7th2
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_mar7th2
-		nameL = nameL_AstralExpress
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = AstralExpress
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_moze = {
-	HSR_create_character = {
-		code = moze
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_moze
-		nameL = nameL_XianzhouYaoqing
-		age = 20
-		immortal = no
-		element = lightning
-		belong = XianzhouYaoqing
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_hanya = {
-	HSR_create_character = {
-		code = hanya
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_hanya
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = physical
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_xueyi = {
-	HSR_create_character = {
-		code = xueyi
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_xueyi
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = quantum
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_guinaifen = {
-	HSR_create_character = {
-		code = guinaifen
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_guinaifen
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = fire
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_yukong = {
-	HSR_create_character = {
-		code = yukong
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_yukong
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = imaginary
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_sushang = {
-	HSR_create_character = {
-		code = sushang
-		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_sushang
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = physical
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_tingyun = {
-	HSR_create_character = {
-		code = tingyun
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_tingyun
-		nameL = nameL_XianzhouLuofu
-		age = 20
-		immortal = no
-		element = lightning
-		belong = XianzhouLuofu
-		female_bool = no
-		ability_level = 85
 	}
 }
 HSR_create_character_qingque = {
 	HSR_create_character = {
 		code = qingque
-		religion = Erudition_Worship
-		culture_key = astral_culture
+		path = erudition
+		religion = Hunt_Worship
+		culture_key = luofu_culture
 		nameF = nameF_qingque
-		nameL = nameL_XianzhouLuofu
+		dynasty = HSR_dynasty_XianzhouLuofu
 		age = 20
-		immortal = no
+		immortal = yes
 		element = quantum
-		belong = XianzhouLuofu
-		female_bool = no
+		female_bool = yes
 		ability_level = 85
 	}
 }
-HSR_create_character_luka = {
+HSR_create_character_rappa = {
 	HSR_create_character = {
-		code = luka
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_luka
-		nameL = nameL_Belobog
+		code = rappa
+		path = erudition
+		religion = Hunt_Worship
+		culture_key = galaxy_ranger_culture
+		nameF = nameF_rappa
+		dynasty = HSR_dynasty_GalaxyRanger
+		age = 20
+		immortal = no
+		element = imaginary
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_robin = {
+	HSR_create_character = {
+		code = robin
+		path = harmony
+		religion = Harmony_Worship
+		culture_key = iris_culture
+		nameF = nameF_robin
+		dynasty = HSR_dynasty_Penacony
 		age = 20
 		immortal = no
 		element = physical
-		belong = Belobog
-		female_bool = no
-		ability_level = 85
+		female_bool = yes
+		ability_level = 95
 	}
 }
-HSR_create_character_lynx = {
+HSR_create_character_robinsummeretto = {
 	HSR_create_character = {
-		code = lynx
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_lynx
-		nameL = nameL_Belobog
+		code = robinsummeretto
+		path = remembrance
+		religion = Harmony_Worship
+		culture_key = iris_culture
+		nameF = nameF_robinsummeretto
+		dynasty = HSR_dynasty_Penacony
 		age = 20
 		immortal = no
-		element = quantum
-		belong = Belobog
-		female_bool = no
-		ability_level = 85
+		element = wind
+		female_bool = yes
+		ability_level = 95
 	}
 }
-HSR_create_character_hook = {
+HSR_create_character_ruanmei = {
 	HSR_create_character = {
-		code = hook
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_hook
-		nameL = nameL_Belobog
+		code = ruanmei
+		path = harmony
+		religion = Erudition_Worship
+		culture_key = ruanmei_culture
+		nameF = nameF_ruanmei
+		dynasty = HSR_dynasty_HertaSpaceStation
+		age = 20
+		immortal = no
+		element = ice
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_saber = {
+	HSR_create_character = {
+		code = saber
+		path = destruction
+		religion = norse
+		culture_key = english
+		nameF = nameF_saber
+		dynasty = HSR_dynasty_OtherWorld
+		age = 20
+		immortal = yes
+		element = wind
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_sam = {
+	HSR_create_character = {
+		code = sam
+		path = destruction
+		religion = Finality_Worship
+		culture_key = firefly_culture
+		nameF = nameF_sam
+		dynasty = HSR_dynasty_StellaronHunter
 		age = 20
 		immortal = no
 		element = fire
-		belong = Belobog
-		female_bool = no
-		ability_level = 85
+		female_bool = yes
+		ability_level = 95
 	}
 }
 HSR_create_character_sampo = {
 	HSR_create_character = {
 		code = sampo
-		religion = Nihility_Worship
-		culture_key = astral_culture
+		path = nihility
+		religion = Elation_Worship
+		culture_key = belobog_lower_culture
 		nameF = nameF_sampo
-		nameL = nameL_Belobog
+		dynasty = HSR_dynasty_Belobog
 		age = 20
 		immortal = no
 		element = wind
-		belong = Belobog
 		female_bool = no
 		ability_level = 85
 	}
 }
-HSR_create_character_pela = {
+HSR_create_character_seele = {
 	HSR_create_character = {
-		code = pela
-		religion = Nihility_Worship
-		culture_key = astral_culture
-		nameF = nameF_pela
-		nameL = nameL_Belobog
+		code = seele
+		path = hunt
+		religion = Preservation_Worship
+		culture_key = belobog_lower_culture
+		nameF = nameF_seele
+		dynasty = HSR_dynasty_Belobog
 		age = 20
 		immortal = no
-		element = ice
-		belong = Belobog
-		female_bool = no
-		ability_level = 85
-	}
-}
-HSR_create_character_natasha = {
-	HSR_create_character = {
-		code = natasha
-		religion = Abundance_Worship
-		culture_key = astral_culture
-		nameF = nameF_natasha
-		nameL = nameL_Belobog
-		age = 20
-		immortal = no
-		element = physical
-		belong = Belobog
-		female_bool = no
-		ability_level = 85
+		element = quantum
+		female_bool = yes
+		ability_level = 95
 	}
 }
 HSR_create_character_serval = {
 	HSR_create_character = {
 		code = serval
-		religion = Erudition_Worship
-		culture_key = astral_culture
+		path = erudition
+		religion = Preservation_Worship
+		culture_key = belobog_upper_culture
 		nameF = nameF_serval
-		nameL = nameL_Belobog
+		dynasty = HSR_dynasty_Belobog
 		age = 20
 		immortal = no
 		element = lightning
-		belong = Belobog
-		female_bool = no
+		female_bool = yes
 		ability_level = 85
 	}
 }
-HSR_create_character_herta = {
+HSR_create_character_silverwolf = {
 	HSR_create_character = {
-		code = herta
-		religion = Erudition_Worship
-		culture_key = astral_culture
-		nameF = nameF_herta
-		nameL = nameL_HertaSpaceStation
+		code = silverwolf
+		path = nihility
+		religion = Finality_Worship
+		culture_key = punklorde_culture
+		nameF = nameF_silverwolf
+		dynasty = HSR_dynasty_StellaronHunter
 		age = 20
 		immortal = no
-		element = ice
-		belong = HertaSpaceStation
-		female_bool = no
-		ability_level = 85
+		element = quantum
+		female_bool = yes
+		ability_level = 95
 	}
 }
-HSR_create_character_asta = {
+HSR_create_character_silverwolflv999 = {
 	HSR_create_character = {
-		code = asta
-		religion = Harmony_Worship
-		culture_key = astral_culture
-		nameF = nameF_asta
-		nameL = nameL_HertaSpaceStation
+		code = silverwolflv999
+		path = elation
+		religion = Finality_Worship
+		culture_key = punklorde_culture
+		nameF = nameF_silverwolflv999
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_sparkle = {
+	HSR_create_character = {
+		code = sparkle
+		path = harmony
+		religion = Elation_Worship
+		culture_key = masked_fools_culture
+		nameF = nameF_sparkle
+		dynasty = HSR_dynasty_MaskedFools
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_sparxie = {
+	HSR_create_character = {
+		code = sparxie
+		path = elation
+		religion = Elation_Worship
+		culture_key = masked_fools_culture
+		nameF = nameF_sparxie
+		dynasty = HSR_dynasty_MaskedFools
 		age = 20
 		immortal = no
 		element = fire
-		belong = HertaSpaceStation
-		female_bool = no
-		ability_level = 85
+		female_bool = yes
+		ability_level = 95
 	}
 }
-HSR_create_character_arlan = {
+HSR_create_character_sunday = {
 	HSR_create_character = {
-		code = arlan
-		religion = Destruction_Worship
-		culture_key = astral_culture
-		nameF = nameF_arlan
-		nameL = nameL_HertaSpaceStation
+		code = sunday
+		path = harmony
+		religion = Order_Worship
+		culture_key = oak_culture
+		nameF = nameF_sunday
+		dynasty = HSR_dynasty_Penacony
 		age = 20
 		immortal = no
-		element = lightning
-		belong = HertaSpaceStation
+		element = imaginary
 		female_bool = no
-		ability_level = 85
+		ability_level = 95
 	}
 }
-HSR_create_character_danheng = {
+HSR_create_character_sushang = {
 	HSR_create_character = {
-		code = danheng
+		code = sushang
+		path = hunt
 		religion = Hunt_Worship
-		culture_key = astral_culture
-		nameF = nameF_danheng
-		nameL = nameL_AstralExpress
+		culture_key = luofu_culture
+		nameF = nameF_sushang
+		dynasty = HSR_dynasty_XianzhouLuofu
 		age = 20
-		immortal = no
-		element = wind
-		belong = AstralExpress
-		female_bool = no
+		immortal = yes
+		element = physical
+		female_bool = yes
 		ability_level = 85
 	}
 }
-HSR_create_character_mar7th = {
+HSR_create_character_theherta = {
 	HSR_create_character = {
-		code = mar7th
-		religion = Preservation_Worship
-		culture_key = astral_culture
-		nameF = nameF_mar7th
-		nameL = nameL_AstralExpress
+		code = theherta
+		path = erudition
+		religion = Erudition_Worship
+		culture_key = herta_culture
+		nameF = nameF_theherta
+		dynasty = HSR_dynasty_HertaSpaceStation
 		age = 20
-		immortal = no
+		immortal = yes
 		element = ice
-		belong = AstralExpress
-		female_bool = no
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_tingyun = {
+	HSR_create_character = {
+		code = tingyun
+		path = harmony
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_tingyun
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = lightning
+		female_bool = yes
 		ability_level = 85
 	}
 }
-
-# ================= 随机抽取（M2：97 名自机角色等权） =================
-HSR_create_character_random = {
-    custom_tooltip = {
-        text = HSR_create_character_random_tooltip
-        random_list = {
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_aventurinewaveflair_01_trait_leader } } }
-				HSR_create_character_aventurinewaveflair = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_robinsummeretto_01_trait_leader } } }
-				HSR_create_character_robinsummeretto = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_himekonova_01_trait_leader } } }
-				HSR_create_character_himekonova = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_gilgamesh_01_trait_leader } } }
-				HSR_create_character_gilgamesh = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tohsakarin_01_trait_leader } } }
-				HSR_create_character_tohsakarin = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mortenaxblade_01_trait_leader } } }
-				HSR_create_character_mortenaxblade = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_silverwolflv999_01_trait_leader } } }
-				HSR_create_character_silverwolflv999 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_evanescia_01_trait_leader } } }
-				HSR_create_character_evanescia = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_ashveil_01_trait_leader } } }
-				HSR_create_character_ashveil = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yaoguang_01_trait_leader } } }
-				HSR_create_character_yaoguang = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sparxie_01_trait_leader } } }
-				HSR_create_character_sparxie = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_cyrene_01_trait_leader } } }
-				HSR_create_character_cyrene = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danhengpt_01_trait_leader } } }
-				HSR_create_character_danhengpt = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_evernight_01_trait_leader } } }
-				HSR_create_character_evernight = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_cerydra_01_trait_leader } } }
-				HSR_create_character_cerydra = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hysilens_01_trait_leader } } }
-				HSR_create_character_hysilens = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hyacine_01_trait_leader } } }
-				HSR_create_character_hyacine = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_phainon_01_trait_leader } } }
-				HSR_create_character_phainon = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_castorice_01_trait_leader } } }
-				HSR_create_character_castorice = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_cipher_01_trait_leader } } }
-				HSR_create_character_cipher = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_anaxa_01_trait_leader } } }
-				HSR_create_character_anaxa = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mydei_01_trait_leader } } }
-				HSR_create_character_mydei = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tribbie_01_trait_leader } } }
-				HSR_create_character_tribbie = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_aglaea_01_trait_leader } } }
-				HSR_create_character_aglaea = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_theherta_01_trait_leader } } }
-				HSR_create_character_theherta = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_dahlia_01_trait_leader } } }
-				HSR_create_character_dahlia = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_rappa_01_trait_leader } } }
-				HSR_create_character_rappa = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_boothill_01_trait_leader } } }
-				HSR_create_character_boothill = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jade_01_trait_leader } } }
-				HSR_create_character_jade = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sunday_01_trait_leader } } }
-				HSR_create_character_sunday = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sam_01_trait_leader } } }
-				HSR_create_character_sam = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_robin_01_trait_leader } } }
-				HSR_create_character_robin = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_acheron_01_trait_leader } } }
-				HSR_create_character_acheron = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_blackswan_01_trait_leader } } }
-				HSR_create_character_blackswan = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sparkle_01_trait_leader } } }
-				HSR_create_character_sparkle = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_drratio_01_trait_leader } } }
-				HSR_create_character_drratio = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_aventurine_01_trait_leader } } }
-				HSR_create_character_aventurine = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_ruanmei_01_trait_leader } } }
-				HSR_create_character_ruanmei = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_argenti_01_trait_leader } } }
-				HSR_create_character_argenti = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_fugue_01_trait_leader } } }
-				HSR_create_character_fugue = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_lingsha_01_trait_leader } } }
-				HSR_create_character_lingsha = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yunli_01_trait_leader } } }
-				HSR_create_character_yunli = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_feixiao_01_trait_leader } } }
-				HSR_create_character_feixiao = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jiaoqiu_01_trait_leader } } }
-				HSR_create_character_jiaoqiu = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_huohuo_01_trait_leader } } }
-				HSR_create_character_huohuo = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danhengil_01_trait_leader } } }
-				HSR_create_character_danhengil = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jingliu_01_trait_leader } } }
-				HSR_create_character_jingliu = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_bailu_01_trait_leader } } }
-				HSR_create_character_bailu = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yanqing_01_trait_leader } } }
-				HSR_create_character_yanqing = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_fuxuan_01_trait_leader } } }
-				HSR_create_character_fuxuan = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_blade_01_trait_leader } } }
-				HSR_create_character_blade = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_jingyuan_01_trait_leader } } }
-				HSR_create_character_jingyuan = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luocha_01_trait_leader } } }
-				HSR_create_character_luocha = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_topaz_01_trait_leader } } }
-				HSR_create_character_topaz = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_clara_01_trait_leader } } }
-				HSR_create_character_clara = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_gepard_01_trait_leader } } }
-				HSR_create_character_gepard = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_seele_01_trait_leader } } }
-				HSR_create_character_seele = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_bronya_01_trait_leader } } }
-				HSR_create_character_bronya = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_archer_01_trait_leader } } }
-				HSR_create_character_archer = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_saber_01_trait_leader } } }
-				HSR_create_character_saber = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_silverwolf_01_trait_leader } } }
-				HSR_create_character_silverwolf = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_kafka_01_trait_leader } } }
-				HSR_create_character_kafka = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_welt_01_trait_leader } } }
-				HSR_create_character_welt = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_himeko_01_trait_leader } } }
-				HSR_create_character_himeko = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy_01_trait_leader } } }
-				HSR_create_character_playerboy = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl_01_trait_leader } } }
-				HSR_create_character_playergirl = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy2_01_trait_leader } } }
-				HSR_create_character_playerboy2 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl2_01_trait_leader } } }
-				HSR_create_character_playergirl2 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy3_01_trait_leader } } }
-				HSR_create_character_playerboy3 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl3_01_trait_leader } } }
-				HSR_create_character_playergirl3 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy4_01_trait_leader } } }
-				HSR_create_character_playerboy4 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl4_01_trait_leader } } }
-				HSR_create_character_playergirl4 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playerboy5_01_trait_leader } } }
-				HSR_create_character_playerboy5 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_playergirl5_01_trait_leader } } }
-				HSR_create_character_playergirl5 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_misha_01_trait_leader } } }
-				HSR_create_character_misha = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_gallagher_01_trait_leader } } }
-				HSR_create_character_gallagher = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mar7th2_01_trait_leader } } }
-				HSR_create_character_mar7th2 = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_moze_01_trait_leader } } }
-				HSR_create_character_moze = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hanya_01_trait_leader } } }
-				HSR_create_character_hanya = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_xueyi_01_trait_leader } } }
-				HSR_create_character_xueyi = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_guinaifen_01_trait_leader } } }
-				HSR_create_character_guinaifen = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_yukong_01_trait_leader } } }
-				HSR_create_character_yukong = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sushang_01_trait_leader } } }
-				HSR_create_character_sushang = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_tingyun_01_trait_leader } } }
-				HSR_create_character_tingyun = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_qingque_01_trait_leader } } }
-				HSR_create_character_qingque = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_luka_01_trait_leader } } }
-				HSR_create_character_luka = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_lynx_01_trait_leader } } }
-				HSR_create_character_lynx = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_hook_01_trait_leader } } }
-				HSR_create_character_hook = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_sampo_01_trait_leader } } }
-				HSR_create_character_sampo = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_pela_01_trait_leader } } }
-				HSR_create_character_pela = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_natasha_01_trait_leader } } }
-				HSR_create_character_natasha = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_serval_01_trait_leader } } }
-				HSR_create_character_serval = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_herta_01_trait_leader } } }
-				HSR_create_character_herta = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_asta_01_trait_leader } } }
-				HSR_create_character_asta = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_arlan_01_trait_leader } } }
-				HSR_create_character_arlan = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_danheng_01_trait_leader } } }
-				HSR_create_character_danheng = yes
-			}
-			1 = {
-				trigger = { NOT = { any_in_global_list = { variable = HSR_characters_created_list has_trait = HSR_mar7th_01_trait_leader } } }
-				HSR_create_character_mar7th = yes
-			}
-
-        }
-    }
+HSR_create_character_tohsakarin = {
+	HSR_create_character = {
+		code = tohsakarin
+		path = erudition
+		religion = shinto
+		culture_key = saigoku_culture
+		nameF = nameF_tohsakarin
+		dynasty = HSR_dynasty_OtherWorld
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_topaz = {
+	HSR_create_character = {
+		code = topaz
+		path = hunt
+		religion = Preservation_Worship
+		culture_key = ten_stonehearts_culture
+		nameF = nameF_topaz
+		dynasty = HSR_dynasty_IPC
+		age = 20
+		immortal = no
+		element = fire
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_tribbie = {
+	HSR_create_character = {
+		code = tribbie
+		path = harmony
+		religion = Harmony_Worship
+		culture_key = amphoreus_gate_culture
+		nameF = nameF_tribbie
+		dynasty = HSR_dynasty_Amphoreus
+		age = 20
+		immortal = no
+		element = quantum
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_welt = {
+	HSR_create_character = {
+		code = welt
+		path = nihility
+		religion = Trailblaze_Worship
+		culture_key = finnish
+		nameF = nameF_welt
+		dynasty = HSR_dynasty_AstralExpress
+		age = 20
+		immortal = no
+		element = imaginary
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_xueyi = {
+	HSR_create_character = {
+		code = xueyi
+		path = destruction
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_xueyi
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = quantum
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_yanqing = {
+	HSR_create_character = {
+		code = yanqing
+		path = hunt
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_yanqing
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = ice
+		female_bool = no
+		ability_level = 95
+	}
+}
+HSR_create_character_yaoguang = {
+	HSR_create_character = {
+		code = yaoguang
+		path = elation
+		religion = Hunt_Worship
+		culture_key = yuque_culture
+		nameF = nameF_yaoguang
+		dynasty = HSR_dynasty_XianzhouYuque
+		age = 20
+		immortal = yes
+		element = physical
+		female_bool = yes
+		ability_level = 95
+	}
+}
+HSR_create_character_yukong = {
+	HSR_create_character = {
+		code = yukong
+		path = harmony
+		religion = Hunt_Worship
+		culture_key = luofu_culture
+		nameF = nameF_yukong
+		dynasty = HSR_dynasty_XianzhouLuofu
+		age = 20
+		immortal = yes
+		element = imaginary
+		female_bool = yes
+		ability_level = 85
+	}
+}
+HSR_create_character_yunli = {
+	HSR_create_character = {
+		code = yunli
+		path = destruction
+		religion = Hunt_Worship
+		culture_key = zhuming_culture
+		nameF = nameF_yunli
+		dynasty = HSR_dynasty_XianzhouZhuming
+		age = 20
+		immortal = yes
+		element = physical
+		female_bool = yes
+		ability_level = 95
+	}
 }

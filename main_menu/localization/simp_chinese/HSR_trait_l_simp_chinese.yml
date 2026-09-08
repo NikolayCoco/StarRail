@@ -13,8 +13,6 @@
  desc_HSR_quantum_trait: "量子属性角色。"
  HSR_imaginary_trait: "虚数"
  desc_HSR_imaginary_trait: "虚数属性角色。"
- HSR_belong_AstralExpress_trait: "星穹列车"
- desc_HSR_belong_AstralExpress_trait: "来自星穹列车的角色。"
  # 命途宗教
  Erudition_Worship: "智识"
  Nihility_Worship: "虚无"
