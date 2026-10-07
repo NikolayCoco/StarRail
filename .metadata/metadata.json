@@ -13,6 +13,13 @@
 		"display_name" : "二向箔 / 2D Portrait Framework",
 		"resource_type" : "mod",
 			"version" : "*.*.*"
+		},
+		{
+		"rel_type" : "dependency",
+		"id" : "NCIOframe",
+		"display_name" : "可可酱的二游IO框架",
+		"resource_type" : "mod",
+			"version" : "*.*.*"
 		}
 	],
 	"game_custom_data":	{
