@@ -9,7 +9,6 @@ HSR_Pay_30 = {
 	ai_tick = never
 	
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -71,7 +70,6 @@ HSR_Pay_648 = {
 	ai_tick = never
 	
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -119,7 +117,6 @@ HSR_create_character = {
 	ai_tick = never
 	
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -166,7 +163,6 @@ HSR_create_pop = {
 	ai_tick = never
 	
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
@@ -238,7 +234,6 @@ HSR_StellarJade_for_golden = {
 	ai_tick = never
 	
 	select_trigger = {
-		show_if = { NOT = { exists = scope:recipient } }
 		looking_for_a = international_organization
 		source = actor
 		target_flag = recipient
