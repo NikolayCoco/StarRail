@@ -5,6 +5,20 @@ on_game_start = {
 }
 on_HSR_start = {
     effect = {
+
+        # 1.4：setup 按书签年份分目录，start 目录不再被读取；新档由脚本兜底创建唯一的 IO
+        if = {
+            limit = { NOT = { exists = international_organization:HSR_express_IO } }
+            every_country = {
+                limit = { is_ai = no }
+                if = {
+                    limit = { NOT = { exists = international_organization:HSR_express_IO } }
+                    create_international_organization = {
+                        type = international_organization_type:HSR_express_IO
+                    }
+                }
+            }
+        }
         if = {
             limit = { NOT = { has_global_variable = HSR_2D_portrait_enabled } }
             set_global_variable = HSR_2D_portrait_enabled

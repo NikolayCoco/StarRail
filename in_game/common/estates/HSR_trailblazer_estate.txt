@@ -1,7 +1,7 @@
 hsr_trailblazer = {
     color = HSR_main_color
 
-    power_per_pop = 68                      # Power gained per pop
+    # 1.4: power_per_pop 已移到 pop_type（见 pop_types/HSR_pop_type.txt）
     tax_per_pop = 648                       # Tax income per pop
 
     rival = 0                           # Rivalry factor with other estates
